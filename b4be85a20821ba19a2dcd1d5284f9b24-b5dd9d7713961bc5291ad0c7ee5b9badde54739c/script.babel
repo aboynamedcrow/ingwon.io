@@ -1,0 +1,25 @@
+let card = document.getElementById("card")
+let originPoint = {
+	x: window.innerWidth / 2,
+	y: window.innerHeight / 2
+}
+
+document.addEventListener("mousemove", (event) => {
+	const xDistance = (event.clientY - originPoint.y)
+	const yDistance = (event.clientX - originPoint.x)
+	let blurRadius = 50
+	if (Math.abs(xDistance) > 100) {
+		blurRadius = Math.abs(xDistance) * 0.5
+	} else if (Math.abs(yDistance) > 100) {
+		blurRadius += ((Math.abs(yDistance) - 100) * 0.1)
+	}
+	card.style.transform = `rotateX(${ - xDistance / 5}deg) rotateY(${yDistance / 6}deg)`
+	card.style.boxShadow = `${-yDistance / 4}px ${ - xDistance / 4}px ${blurRadius}px 0 rgba(0,0,0,0.35)`
+})
+
+window.addEventListener("resize", () => {
+	originPoint = {
+		x: window.innerWidth / 2,
+		y: window.innerHeight / 2
+	}	
+})
