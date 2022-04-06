@@ -2,10 +2,6 @@ html, body {
     font-family: 'Fira Code';
   }
 
-  /*.navbar {
-  }*/
-  
-
   .sticky {
     position: fixed;
     top: 0;
