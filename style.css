@@ -6,8 +6,7 @@ html, body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    opacity: 0.5;
-    filter: alpha(opacity=50); 
+    opacity: 1;
   }  
 
   .navbar li {
