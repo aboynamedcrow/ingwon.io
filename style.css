@@ -27,6 +27,8 @@ html, body {
     opacity: 1;
     border: none;
     font-family: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0;
   }
 
@@ -43,7 +45,8 @@ html, body {
     display: block;
     font-size: 24px;
     opacity: 1;
-    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .show {display:block;}
