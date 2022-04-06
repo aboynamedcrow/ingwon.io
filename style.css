@@ -6,7 +6,7 @@ html, body {
     display: inline
   }
 
-  .navbar ul {
+  .navbar a {
     text-decoration: none
   }
 
