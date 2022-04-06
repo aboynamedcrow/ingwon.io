@@ -2,6 +2,14 @@ html, body {
     font-family: 'Fira Code';
   }
 
+  .navbar {
+    display: inline
+  }
+
+  .navbar ul {
+    text-decoration: none
+  }
+
   .sticky {
     position: fixed;
     top: 0;
