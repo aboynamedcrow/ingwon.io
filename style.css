@@ -83,7 +83,7 @@ html, body {
     display: none;
   }
   #onlyFans-checkbox:checked + #onlyFans:after {
-    content: "Wtf come on. Really? Get help";
+    content: "Wtf actually? Get help";
     position: absolute;
     top: 0;
     left: 0;
