@@ -58,7 +58,8 @@ html, body {
 
   .social-links ul {
     list-style-type: none;
-    width: 300px;
+    margin: 0 auto;
+    width: 90%;
   }
 
   .social-links li {
