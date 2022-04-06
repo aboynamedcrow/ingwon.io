@@ -367,6 +367,8 @@ html, body {
     font-family: inherit;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
