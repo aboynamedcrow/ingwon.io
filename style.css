@@ -60,6 +60,7 @@ html, body {
     list-style-type: none;
     margin: 0 auto;
     width: 90%;
+    text-align: center;
   }
 
   .social-links li {
