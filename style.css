@@ -338,7 +338,7 @@ html, body {
     z-index: 100;
     position: fixed;
     width: 100%;
-    transition: top 0.5s;
+    transition: top 0.8s;
 }
 
   .dropdown {
