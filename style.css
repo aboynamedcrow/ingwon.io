@@ -20,11 +20,6 @@ html, body {
     height: 200px;
     min-width: 36.297828vw;
     min-height: 20.78119924vw;
-    -webkit-transform: rotate(90deg); /* Safari and Chrome */
-    -moz-transform: rotate(90deg);   /* Firefox */
-    -ms-transform: rotate(90deg);   /* IE 9 */
-    -o-transform: rotate(90deg);   /* Opera */
-    transform: rotate(90deg);
   }
 
   #business-card p {
@@ -331,6 +326,9 @@ html, body {
 /* navbar stuff here */ 
 
   .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     background-color: #fff;
     opacity: 1
   }
