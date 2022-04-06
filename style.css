@@ -75,7 +75,9 @@ html, body {
 
   #onlyFans {
     position: relative;
-    display: inline-block;
+    display: block;
+    overflow: hidden;
+    width: 100%;
   }
   #onlyFans-checkbox {
     display: none;
@@ -86,6 +88,8 @@ html, body {
     top: 0;
     left: 0;
     bottom: 0;
-    display: inline-block;
+    display: block;
+    overflow: hidden;
+    width: 100%;
     background: white;
   }
