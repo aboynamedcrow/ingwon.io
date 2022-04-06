@@ -59,9 +59,9 @@ function rotate(event) {
 	card.style.transform = "perspective(550px) rotateY(" + val + "deg) rotateY(" + val + "deg)";
 }
 
-/*document.addEventListener("mousemove", function (event)
+document.addEventListener("mousemove", function (event)
 {
 	rotate (event)
-}, false);*/
+}, false);
 
 
