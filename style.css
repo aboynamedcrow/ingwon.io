@@ -6,12 +6,9 @@ html, body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    color: #fff;
-    opacity: 1;
+    background-color: #fff;
+    opacity: 0.5
   }  
-
-  .navbar ul {
-  }
 
   .navbar li {
     display: inline;
