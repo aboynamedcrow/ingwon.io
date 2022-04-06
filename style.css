@@ -7,9 +7,8 @@ html, body {
     text-decoration: inherit; 
   }
   
-  .navbar ul {
+  .navbar li {
     display: inline
-    float: left
   }
 
 
