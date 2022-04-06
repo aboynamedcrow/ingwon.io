@@ -1,13 +1,3 @@
-// loads in psycho.html
-
-fetch('psycho.html')
-.then(res => res.text())
-.then(text => {
-    let oldelem = document.querySelector("script#load-business-card");
-    let newelem = document.createElement("div");
-    newelem.innerHTML = text;
-    oldelem.parentNode.replaceChild(newelem,oldelem);
-})
 
 // checks URL to load right info on card
 $(document).ready(function() {
