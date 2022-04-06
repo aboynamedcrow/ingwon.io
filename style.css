@@ -354,7 +354,7 @@ html, body {
     background-color: inherit;
     opacity: 1;
     margin: auto;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
   }
 
@@ -414,16 +414,7 @@ html, body {
     justify-content: center;
   }
 
-  .social-links ul {
-    list-style-type: none;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
-  }
-
-  .social-links li {
+  .container-contact p {
     list-style-type: none;
     margin: auto;
     margin-left: auto;
@@ -432,7 +423,7 @@ html, body {
     font-size: 18px;
   }
 
-  .social-links a {
+  .container-contact a {
     color: inherit;
     text-decoration: none;
   }
