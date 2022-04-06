@@ -213,7 +213,7 @@ html, body {
     font-size: 1.2vw;
   }
   @media (min-width: 1100px) {
-    p {
+    #business-card p {
       font-size: 1.6vw;
     }
     #murders-and-executions {
