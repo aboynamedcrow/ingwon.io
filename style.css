@@ -54,6 +54,10 @@ html, body {
     margin: auto;
   }
 
+  .social-links ul {
+    text-align: center;
+  }
+
   .social-links li {
     list-style: none;
     color: inherit;
