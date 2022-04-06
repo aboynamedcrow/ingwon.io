@@ -12,6 +12,9 @@
     <link rel="stylesheet" type ="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code" rel="stylesheet">
 
+    <!---JS file-->
+    <script src="index.js"></script>
+
   </head>
   
   <body>
@@ -22,10 +25,10 @@
 
       <nav class="navbar">
         <nav class="dropdown">
-          <button class="dropbtn">
+          <button onclick="showDropdown()" class="dropbtn">
             ingwon
           </button>
-          <nav class="dropdown-content">
+          <nav id='myDropdwon' class="dropdown-content">
             <a href="/">main</a>
             <a href="#">about</a>
             <a href="#">writing</a>
