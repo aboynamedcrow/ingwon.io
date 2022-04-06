@@ -51,7 +51,6 @@ html, body {
   .show {display:block;}
   
   .container-contact {
-    display: flex;
     margin: 0 auto;
     width:100%;
     text-align: center;
