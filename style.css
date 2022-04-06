@@ -9,6 +9,24 @@ html, body {
     font-family: 'Fira Code';
   }
 
+  /*.navbar {
+  }*/
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .wrapper {
+    padding-top: 60px;
+  }
+
   .name {
     font-family: 'Fira Code';
     margin-bottom: 2px;
