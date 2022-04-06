@@ -26,20 +26,7 @@ html, body {
     font-family: 'EB Garamond';
     text-transform: uppercase;
   }
-  .patrick-card #bottom-info {
-    font-size: 0.5em;
-    padding-bottom: 15px;
-  }
-  .patrick-card #phone-number {
-    font-size: 0.76em;
-  }
-  .patrick-card #company {
-    font-size: 0.76em;
-  }
-  .patrick-card #murders-and-executions {
-    font-size: 0.61em;
-    text-transform: none;
-  }
+  
   .patrick-card #first-name {
     font-size: 0.75em;
   }
