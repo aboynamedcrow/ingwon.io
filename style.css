@@ -7,7 +7,7 @@ html, body {
     position: sticky;
     top: 0;
     background-color: #fff;
-    opacity: 0.5
+    opacity: 1
   }  
 
   .navbar li {
