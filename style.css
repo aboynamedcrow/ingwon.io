@@ -82,9 +82,9 @@ html, body {
   #onlyFans-checkbox:checked + #onlyFans:after {
     content: "Wtf come on. Really? Get help";
     position: absolute;
-    top: 0;
+    /*top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: white;*/
   }
