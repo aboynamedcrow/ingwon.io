@@ -3,12 +3,14 @@ html, body {
   }
 
   .navbar {
+    color: inherit;
+    text-decoration: inherit; 
+  }
+  
+  .navbar ul {
     display: inline
   }
 
-  .navbar a {
-    text-decoration: none
-  }
 
   .sticky {
     position: fixed;
