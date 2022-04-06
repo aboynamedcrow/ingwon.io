@@ -6,11 +6,11 @@ html, body {
     margin: 0px;
     padding: 0px;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Code';
   }
 
   .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Code';
     margin-bottom: 2px;
   }
   
