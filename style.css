@@ -12,6 +12,7 @@ html, body {
 /*american psycho stuff here */
   #business-card {
     position: relative;
+    margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -328,6 +329,7 @@ html, body {
   .navbar {
     position: -webkit-sticky;
     position: sticky;
+    margin: auto;
     top: 0;
     background-color: #fff;
     opacity: 1
@@ -335,6 +337,7 @@ html, body {
   
   .navbar-fixed {
     top: 0;
+    margin: auto;
     z-index: 100;
     position: fixed;
     width: 100%;
