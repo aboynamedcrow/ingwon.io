@@ -54,6 +54,7 @@ html, body {
     display: flex;
     margin: 0 auto;
     width:80%;
+    text-align: center;
   }
 
   .social-links ul {
