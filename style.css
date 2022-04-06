@@ -354,7 +354,7 @@ html, body {
     background-color: inherit;
     opacity: 1;
     margin: auto;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: auto;
   }
 
@@ -443,6 +443,6 @@ html, body {
     display: block;
     overflow: hidden;
     width: 100%;
-    background: white;
+    /*background: white;*/
     cursor: pointer;
   }
