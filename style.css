@@ -75,6 +75,7 @@ html, body {
 
   #onlyFans {
     position: relative;
+    display: inline-block;
   }
   #onlyFans-checkbox {
     display: none;
