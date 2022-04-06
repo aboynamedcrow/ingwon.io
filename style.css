@@ -50,6 +50,10 @@ html, body {
 
   .show {display:block;}
   
+  .social-links ul {
+    list-style: none;
+  }
+
   .social-links a {
     color: inherit;
     text-decoration: none;
