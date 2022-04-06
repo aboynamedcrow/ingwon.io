@@ -54,7 +54,7 @@ html, body {
     list-style: none;
   }
 
-  .social-links a {
+  .social-links li {
     color: inherit;
     text-decoration: none;
     font-size: 18px;
