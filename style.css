@@ -81,17 +81,17 @@ html, body {
     font-size: 18px;
   }
 
-  .onlyFans {
+  #onlyFans {
     position: relative;
     display: block;
     overflow: hidden;
     width: 100%;
     font-size: 18px;
   }
-  .onlyFans-checkbox {
+  #onlyFans-checkbox {
     display: none;
   }
-  .onlyFans-checkbox:checked + .onlyFans:after {
+  #onlyFans-checkbox:checked + #onlyFans:after {
     content: "Wtf come on really? relax..";
     position: absolute;
     top: 0;
