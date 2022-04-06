@@ -6,8 +6,11 @@ html, body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    opacity: 1;
   }  
+
+  .navbar ul {
+    opacity: 1;
+  }
 
   .navbar li {
     display: inline;
