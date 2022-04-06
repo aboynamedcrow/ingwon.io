@@ -28,10 +28,10 @@ function showDropdown() {
         //.log to determine when you want the 
         //nav bar to stick.  
         console.log($(window).scrollTop())
-      if ($(window).scrollTop() > 209) {
+      if ($(window).scrollTop() > 219) {
         $('.navbar').addClass('navbar-fixed');
       }
-      if ($(window).scrollTop() < 210) {
+      if ($(window).scrollTop() < 220) {
         $('.navbar').removeClass('navbar-fixed');
       }
     });
