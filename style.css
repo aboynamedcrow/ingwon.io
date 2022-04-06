@@ -78,7 +78,6 @@ html, body {
   .social-links a {
     color: inherit;
     text-decoration: none;
-    font-size: 18px;
   }
 
   #onlyFans {
@@ -86,7 +85,6 @@ html, body {
     display: block;
     overflow: hidden;
     width: 100%;
-    font-size: 18px;
   }
   #onlyFans-checkbox {
     display: none;
@@ -101,5 +99,4 @@ html, body {
     overflow: hidden;
     width: 100%;
     background: white;
-    font-size: 18px;
   }
