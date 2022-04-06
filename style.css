@@ -5,10 +5,6 @@ html, body {
   /*.navbar {
   }*/
   
-  .navbar li {
-    display: inline-block;
-    margin-right: 8px;
-  }
 
   .sticky {
     position: fixed;
@@ -16,9 +12,7 @@ html, body {
     width: 100%;
   }
 
-  .sticky + .container {
-    padding-top: 60px;
-  }
+
 
   .social-links {
     list-style: none;
