@@ -58,8 +58,10 @@ function rotate(event) {
 	var card = document.getElementById("business-card");
 	card.style.transform = "perspective(550px) rotateY(" + val + "deg) rotateY(" + val + "deg)";
 }
- $("#container-parent").mousemove(function (event) {
-     rotate (event)
-    });
+
+document.addEventListener("mousemove", function (event)
+{
+	rotate (event)
+}, false);
 
 
