@@ -442,7 +442,7 @@ html, body {
     bottom: 0;
     display: block;
     overflow: hidden;
-    width: 100%;
-    /*background: white;*/
+    width: 350px;
+    background: white;
     cursor: pointer;
   }
