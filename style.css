@@ -85,6 +85,7 @@ html, body {
     display: block;
     overflow: hidden;
     width: 100%;
+    font-size: 18px;
   }
   #onlyFans-checkbox {
     display: none;
@@ -99,4 +100,5 @@ html, body {
     overflow: hidden;
     width: 100%;
     background: white;
+    font-size: 18px;
   }
