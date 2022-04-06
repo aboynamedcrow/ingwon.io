@@ -2,9 +2,6 @@ html, body {
     font-family: 'Fira Code';
   }
 
-  .container-parent {
-    overflow: hidden;
-  }
 
   .navbar {
     position: -webkit-sticky;
@@ -15,8 +12,6 @@ html, body {
   }  
 
   .dropdown {
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     overflow: hidden;
     background-color: inherit;
