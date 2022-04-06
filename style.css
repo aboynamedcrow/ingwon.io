@@ -73,7 +73,6 @@ html, body {
     width: 375px;
     color: inherit;
     font-size: 18px;
-    cursor: pointer;
   }
 
   .social-links a {
@@ -86,6 +85,7 @@ html, body {
     display: block;
     overflow: hidden;
     width: 100%;
+    cursor: pointer;
   }
   #onlyFans-checkbox {
     display: none;
@@ -100,4 +100,5 @@ html, body {
     overflow: hidden;
     width: 100%;
     background: white;
+    cursor: pointer;
   }
