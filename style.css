@@ -16,7 +16,6 @@ html, body {
   
   .wrapper {
     /* background-color: lightpink; */
-    
     max-width: 100%;
     display: flex;
     flex-direction: row;
