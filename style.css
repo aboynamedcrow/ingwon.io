@@ -55,12 +55,14 @@ html, body {
     justify-content: center;
   }
 
-  /*.social-links ul {
-    text-align: center;
-  }*/
+  .social-links ul {
+    list-style-type: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 16px;
+  }
 
   .social-links li {
-    list-style: none;
     color: inherit;
     font-size: 18px;
   }
