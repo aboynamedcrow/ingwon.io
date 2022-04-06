@@ -50,14 +50,19 @@ html, body {
 
   .show {display:block;}
   
-  .social-links ul {
-    list-style: none;
+  .container-contact {
+    margin: auto;
   }
 
   .social-links li {
+    list-style: none;
+    color: inherit;
+    font-size: 18px;
+  }
+
+  .social-links a {
     color: inherit;
     text-decoration: none;
-    font-size: 18px;
   }
 
   #onlyFans {
