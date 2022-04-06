@@ -22,6 +22,7 @@ html, body {
     font-size: 24px;
     background-color: inherit;
     color: inherit;
+    opacity: inherit;
     border: none;
     font-family: inherit;
     margin: 0;
@@ -39,6 +40,7 @@ html, body {
     text-decoration: none;
     display: block;
     font-size: 24px;
+    opacity: inherit;
   }
 
   .show {display:block;}
