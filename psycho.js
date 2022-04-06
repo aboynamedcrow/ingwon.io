@@ -38,8 +38,8 @@ $(document).ready(function() {
         $('#first-name').text('Ingwon');
         $('#last-name').text('Chae');
         $('#phone-number').text('617.758.9124');
-        $('#title').text('CEO');
-        $('#bottom-info').html('224 Wythe Ave Brooklyn, N.Y. 11249<br/>EMAIL ingwon@gmail.com');
+        $('#title').text('Chairman and CEO');
+        $('#bottom-info').html('224 Wythe Ave Brooklyn, N.Y. 11249 EMAIL ingwon@gmail.com');
         $('#company').text('Chae & Chae');
         $('#murders-and-executions').text('Mergers And Acquisitions');
         $("#business-card").addClass("patrick-card");
