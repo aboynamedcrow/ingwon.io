@@ -53,14 +53,14 @@ html, body {
   .container-contact {
     display: flex;
     margin: 0 auto;
-    width:80%;
+    width:100%;
     text-align: center;
   }
 
   .social-links ul {
     list-style-type: none;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     text-align: center;
   }
 
