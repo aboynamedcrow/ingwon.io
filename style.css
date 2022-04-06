@@ -61,7 +61,7 @@ html, body {
   .social-links ul {
     list-style-type: none;
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
     text-align: center;
   }
 
@@ -70,6 +70,7 @@ html, body {
     padding-left: 16px;
     padding-right: 16px;
     margin: 16px;
+    width: 800px;
     color: inherit;
     font-size: 18px;
   }
