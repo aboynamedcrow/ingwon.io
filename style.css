@@ -327,7 +327,8 @@ html, body {
   .navbar {
     position: -webkit-sticky;
     position: sticky;
-    top: 200;
+    top: 0;
+    z-index: 1;
     background-color: #fff;
     opacity: 1
   }  
