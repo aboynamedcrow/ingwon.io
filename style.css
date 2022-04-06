@@ -15,6 +15,12 @@ html, body {
     min-width: 36.297828vw;
     min-height: 20.78119924vw;
   }
+
+  #business-card p {
+    font-size: 0.95em;
+    margin: 0;
+  }
+
   .patrick-card {
     background-color: #e3dac9;
     font-family: 'EB Garamond';
