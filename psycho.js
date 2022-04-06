@@ -51,7 +51,7 @@ $(document).ready(function() {
 
 function rotate(event) {
 	var x = event.clientX;
-	var w = 350; // width of card
+	var w = window.innerWidth;
 	var midpoint = w / 2;
 	var pos = x - midpoint;
 	var val = (pos / midpoint) * 20;
