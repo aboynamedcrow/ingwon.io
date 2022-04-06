@@ -51,7 +51,8 @@ html, body {
   .show {display:block;}
   
   .container-contact {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
   /*.social-links ul {
