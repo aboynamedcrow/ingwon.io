@@ -6,7 +6,7 @@ html, body {
 .container-parent{
   display: flex;
   flex-direction: column;
-  height: 4000px;
+  height: 100%;
 }
 
 /*american psycho stuff here */
