@@ -1,13 +1,12 @@
 html, body {
     font-family: 'Fira Code';
   }
-
-  .navbar {
-    color: inherit;
-  }
   
   .navbar li {
     display: inline;
+  }
+
+  .navbar a {
     text-decoration: none;
   }
 
