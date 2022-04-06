@@ -31,7 +31,7 @@ function showDropdown() {
       if ($(window).scrollTop() > 249) {
         $('.navbar').addClass('navbar-fixed');
       }
-      if ($(window).scrollTop() < 230) {
+      if ($(window).scrollTop() < 242) {
         $('.navbar').removeClass('navbar-fixed');
       }
     });
