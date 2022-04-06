@@ -3,6 +3,11 @@ html, body {
 
   }
 
+.container-parent{
+  display: flex;
+  flex-direction: column;
+}
+
 /*american psycho stuff here */
   #business-card {
     position: relative;
