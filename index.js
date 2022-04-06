@@ -20,13 +20,3 @@ function showDropdown() {
       }
     }
   }
-
-  var OFbutton = document.querySelectorAll("OFbutton")[0];
-OFbutton.addEventListener('click', function() {
-  if (OFbutton.getAttribute("Wtf come on. Really? Get help") == OFbutton.innerHTML) {
-    OFbutton.innerHTML = OFbutton.getAttribute("OnlyFans");
-  } else {
-    OFbutton.setAttribute("OnlyFans", OFbutton.innerHTML);
-    OFbutton.innerHTML = button.getAttribute("Wtf come on. Really? Get help");
-  }
-}, false);
