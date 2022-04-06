@@ -73,6 +73,7 @@ html, body {
     width: 375px;
     color: inherit;
     font-size: 18px;
+    cursor: pointer;
   }
 
   .social-links a {
