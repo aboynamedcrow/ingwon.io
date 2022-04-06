@@ -43,6 +43,7 @@ html, body {
     display: block;
     font-size: 24px;
     opacity: 1;
+    padding: 4px;
   }
 
   .show {display:block;}
