@@ -37,8 +37,8 @@ $(document).ready(function() {
         $("#business-card").removeClass();
         $('#first-name').text('Ingwon');
         $('#last-name').text('Chae');
-        $('#phone-number').text('617.758.9124');
-        $('#title').text('Chairman and CEO');
+        $('#phone-number').text('617 758 9124');
+        $('#title').text('CEO');
         $('#bottom-info').html('224 Wythe Ave Brooklyn, N.Y. 11249 EMAIL ingwon@gmail.com');
         $('#company').text('Chae & Chae');
         $('#murders-and-executions').text('Mergers And Acquisitions');
@@ -58,7 +58,7 @@ function rotate(event) {
 	var card = document.getElementById("business-card");
 	card.style.transform = "perspective(550px) rotateY(" + val + "deg) rotateY(" + val + "deg)";
 }
- $("#business-card").mousemove(function (event) {
+ $("#container-parent").mousemove(function (event) {
      rotate (event)
     });
 
