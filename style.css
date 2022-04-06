@@ -51,12 +51,12 @@ html, body {
   .show {display:block;}
   
   .container-contact {
-    margin: auto;
+    margin: 0 auto;
   }
 
-  .social-links ul {
+  /*.social-links ul {
     text-align: center;
-  }
+  }*/
 
   .social-links li {
     list-style: none;
