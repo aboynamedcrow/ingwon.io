@@ -90,7 +90,7 @@ html, body {
     display: none;
   }
   #onlyFans-checkbox:checked + #onlyFans:after {
-    content: "Wtf come on. Really? Relax";
+    content: "Wtf come on really? relax..";
     position: absolute;
     top: 0;
     left: 0;
