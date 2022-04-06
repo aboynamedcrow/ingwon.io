@@ -1,33 +1,27 @@
-<!DOCTYPE html>
+{<!DOCTYPE html>
 <html>
   <head>
-    <title>Ingwon Chae</title>
+    <!-- Meta Tags-->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <!-- Title-->
+    <title>Ingwon Chae</title>
+
+    <!--Stylesheet-->
     <link rel="stylesheet" type ="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code" rel="stylesheet">
+
   </head>
   
   <body>
-    <div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="index.html">ingwon</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    <!--Start of Nav Bar. include on all html files except for navbar.html-->
+    <script id='replace-with-navbar' src="navbar.js"></script>
+    <!--include below script to make navbar sticky-->
+    <script src='stickynav.js'></script>
+    <!--End of Nav Bar.-->
 
-      </nav>
-    </div>
-    <div class="wrapper">
-    
-      <div class="left">
-        <!--- <img class="profile-picture" src="img/profile.jpg" width="200"/> --->
-        <h1>Ingwon Chae</h1>
-        <h4>CS Student</h4>
-      </div>
-      
-      <div class ='right'>
+    <div class="container">
         <p class="bio">
           Student and real human being.
           Thanks for visiting my website.
@@ -36,10 +30,8 @@
           <li><a href="https://github.com/aboynamedcrow">Github</a></li>
           <li><a href="https://medium.com/@ingwon">Medium</a></li>
         </ul>
-      </div>
-      
     </div>
 
-    <script src='script.js'></script>
+    
   </body>
 </html>
