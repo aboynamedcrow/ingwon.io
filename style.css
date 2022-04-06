@@ -53,6 +53,7 @@ html, body {
   .container-contact {
     display: flex;
     justify-content: center;
+    width:800px;
   }
 
   .social-links ul {
