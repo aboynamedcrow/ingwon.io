@@ -12,7 +12,7 @@ $(document).ready(function() {
     document.body.classList.add("dark-theme");
     }
 
-    darkSwitch.addEventListener("click", function () {
+    darkSwitch.addEventListener("change", function () {
     document.body.classList.toggle("dark-theme");
 
     let theme = "light";
