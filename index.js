@@ -3,6 +3,8 @@
 
     const currentTheme = localStorage.getItem("theme");
 
+    console.log(currentTheme);
+
     if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
     }
