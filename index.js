@@ -15,8 +15,10 @@ $(document).ready(function() {
     darkSwitch.addEventListener("change", function () {
 
         let theme = "dark";
-        
+        console.log(this.checked);
+
         if(this.checked) {
+            console.log(this.checked);
             theme = "dark";
             if (document.body.classList.contains("dark-theme")){
                 theme = "dark";
@@ -24,6 +26,7 @@ $(document).ready(function() {
                 document.body.classList.add("dark-theme");
             }}
             else {
+            console.log(this.checked);
             theme = ""
                 if (document.body.classList.contains("dark-theme")){
                     document.body.classList.toggle("dark-theme");
