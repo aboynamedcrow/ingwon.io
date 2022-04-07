@@ -436,7 +436,7 @@ html, body {
   .show {display:block;}
   
   .container-page {
-    margin: auto;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--bkg-color);
