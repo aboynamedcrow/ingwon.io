@@ -380,7 +380,7 @@ html, body {
     margin-right: auto;
     z-index: 100;
     position: fixed;
-    width: 100%;
+    /*width: 100%;*/
     transition: top 3s;
     background-color: var(--bkg-color);
     color: var(--text-color);
@@ -439,6 +439,12 @@ html, body {
   }
 
       /* The switch - the box around the slider */
+
+    .dark-toggle{
+      margin: auto;
+      margin-right: 50%;
+    }
+
     .dark-toggle .switch {
       position: relative;
       display: inline-block;
