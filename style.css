@@ -36,6 +36,7 @@ html, body {
     }
 
     #business-card p {
+      color: #000;
       font-size: 0.95em;
       margin: 0;
     }
