@@ -13,14 +13,25 @@ $(document).ready(function() {
     }
 
     darkSwitch.addEventListener("change", function () {
-    document.body.classList.toggle("dark-theme");
-
-    let theme = "light";
-    if (document.body.classList.contains("dark-theme")) {
-        theme = "dark";
-    }
-    localStorage.setItem("theme", theme);
-
+        if(this.checked) {
+            if (document.body.classList.contains("dark-theme")){
+                let theme = "dark";
+                localStorage.setItem("theme", theme);
+            } else {
+                document.body.classList.add("dark-theme");
+                let theme = "dark";
+                localStorage.setItem("theme", theme);
+            }}
+            else {
+                if (document.body.classList.contains("dark-theme")){
+                    document.body.classList.toggle("dark-theme");
+                    let theme = "";
+                    localStorage.setItem("theme", theme);
+                } else {
+                    let theme = "";
+                    localStorage.setItem("theme", theme);
+                }
+            }
     });
 });
 
