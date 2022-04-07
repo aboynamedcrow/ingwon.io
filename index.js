@@ -13,6 +13,9 @@ $(document).ready(function() {
     }
 
     darkSwitch.addEventListener("change", function () {
+
+        console.log(this);
+
         if(this.checked) {
             let theme = "dark";
             if (document.body.classList.contains("dark-theme")){
@@ -29,6 +32,7 @@ $(document).ready(function() {
                 }
             }
         localStorage.setItem("theme", theme);
+        console.log(this);
     });
 });
 
