@@ -494,7 +494,7 @@ html, body {
 
     /* Rounded sliders */
     .dark-toggle .slider.round {
-      border-radius: 1px;
+      border-radius: 17px;
     }
 
     .dark-toggle .slider.round:before {
