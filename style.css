@@ -1,7 +1,17 @@
 html, body {
     font-family: 'Inter';
-
   }
+
+  body {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+
 
 .container-parent{
   display: flex;
@@ -333,7 +343,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     top: 0;
-    background-color: #fff;
+    /*background-color: #fff;*/
     opacity: 1
   }
   
@@ -444,6 +454,6 @@ html, body {
     bottom: 0;
     display: block;
     overflow: hidden;
-    background: white;
+    background: var(--bkg-color);
     cursor: pointer;
   }
