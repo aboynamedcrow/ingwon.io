@@ -32,6 +32,8 @@ html, body {
     #business-card {
       position: relative;
       margin: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
       top: 0;
       right: 0;
       bottom: 0;
