@@ -1,5 +1,5 @@
 
-// ensure that this runs after defer in embedded html scrip to ensure html frame can load. 
+/*// ensure that this runs after defer in embedded html scrip to ensure html frame can load. 
 fetch('psycho.html')
 .then(res => res.text())
 .then(text => {
@@ -7,7 +7,7 @@ fetch('psycho.html')
     let newelem = document.createElement("div");
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
-})
+})*/
 
 // checks URL to load right info on card
 //rfer to mappings in content page based on id/class tags for each link
