@@ -42,6 +42,7 @@ html, body {
     #business-card {
       position: relative;
       margin: auto;
+      margin-bottom: 20%;
       top: 0;
       right: 0;
       bottom: 0;
