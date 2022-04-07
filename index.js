@@ -1,6 +1,8 @@
 //Toggle Dark Mode via localStorage
     const darkSwitch = document.querySelectorAll(".dark-toggle.switch");
 
+    console.log(darkSwitch);
+
     const currentTheme = localStorage.getItem("theme");
 
     console.log(currentTheme);
