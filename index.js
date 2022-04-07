@@ -1,7 +1,15 @@
 //Toggle Dark Mode via localStorage
     const btn = document.querySelector(".btn-toggle");
 
+    console.log(btn);
+    console.log(btn.textContent);
+
+
     const currentTheme = localStorage.getItem("theme");
+
+    console.log(currentTheme);
+    console.log(currentTheme.textContent);
+
     if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
     }
@@ -14,6 +22,9 @@
         theme = "dark";
     }
     localStorage.setItem("theme", theme);
+    console.log(localStorage.getItem("theme"));
+    console.log(localStorage.getItem("theme").textContent);
+
     });
 
 
