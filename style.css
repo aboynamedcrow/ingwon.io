@@ -17,6 +17,8 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  color: var(--text-color);
+  background-color: var(--bkg-color);
 }
 
 /*american psycho stuff here */
@@ -337,13 +339,14 @@ html, body {
 /* navbar stuff here */ 
 
   .navbar {
-    position: -webkit-sticky;
-    position: sticky;
+    top: 0;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
     background-color: var(--bkg-color);
+    color: var(--text-color);
     opacity: 1
   }
   
@@ -356,12 +359,16 @@ html, body {
     position: fixed;
     width: 100%;
     transition: top 3s;
+    background-color: var(--bkg-color);
+    color: var(--text-color);
+    opacity: 1
 }
 
   .dropdown {
     top: 0;
     overflow: hidden;
     background-color: inherit;
+    color: inherit;
     opacity: 1;
     margin: auto;
     margin-left: 10%;
@@ -389,6 +396,7 @@ html, body {
     display: none;
     position: absolute;
     background-color: inherit;
+    color: inherit;
     z-index: 1;
     margin: auto;
     margin-left: auto;
@@ -396,6 +404,7 @@ html, body {
   }
 
   .dropdown-content a {
+    background-color: inherit;
     color: inherit;
     text-decoration: none;
     display: block;
@@ -412,11 +421,15 @@ html, body {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--bkg-color);
+    color: var(--text-color);
   }
 
   /*contact page here*/
 
   .container-contact {
+    background-color: inherit;
+    color: inherit;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -424,14 +437,16 @@ html, body {
   }
 
   .container-contact p {
+    background-color: inherit;
+    color: inherit;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    color: inherit;
     font-size: 18px;
   }
 
   .container-contact a {
+    background-color: inherit;
     color: inherit;
     text-decoration: none;
   }
@@ -454,6 +469,7 @@ html, body {
     bottom: 0;
     display: block;
     overflow: hidden;
-    background: var(--bkg-color);
+    background-color: inherit;
+    color: inherit;
     cursor: pointer;
   }
