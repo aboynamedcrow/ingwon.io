@@ -1,6 +1,6 @@
 //Toggle Dark Mode via localStorage
 $(document).ready(function() {
-    const darkSwitch = document.querySelector(".dark-checkbox");
+    var darkSwitch = document.querySelector(".dark-checkbox");
 
     console.log(darkSwitch);
 
@@ -15,10 +15,10 @@ $(document).ready(function() {
     darkSwitch.addEventListener("change", function () {
 
         let theme = "dark";
-        console.log(this.checked);
+        console.log(darkSwitch.checked);
 
         if(this.checked) {
-            console.log(this.checked);
+            console.log(darkSwitch.checked);
             theme = "dark";
             if (document.body.classList.contains("dark-theme")){
                 theme = "dark";
@@ -26,7 +26,7 @@ $(document).ready(function() {
                 document.body.classList.add("dark-theme");
             }}
             else {
-            console.log(this.checked);
+            console.log(darkSwitch.checked);
             theme = ""
                 if (document.body.classList.contains("dark-theme")){
                     document.body.classList.toggle("dark-theme");
@@ -35,7 +35,7 @@ $(document).ready(function() {
                 }
             }
         localStorage.setItem("theme", theme);
-        console.log(this);
+        console.log(darkSwitch);
     });
 });
 
