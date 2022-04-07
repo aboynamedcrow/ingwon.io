@@ -20,319 +20,319 @@ html, body {
 }
 
 /*american psycho stuff here */
-  #business-card {
-    position: relative;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 350px;
-    height: 200px;
-    min-width: 36.297828vw;
-    min-height: 20.78119924vw;
-  }
+    #business-card {
+      position: relative;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 350px;
+      height: 200px;
+      min-width: 36.297828vw;
+      min-height: 20.78119924vw;
+    }
 
-  #business-card p {
-    font-size: 0.95em;
-    margin: 0;
-  }
-
-  .patrick-card {
-    background-color: #e3dac9;
-    font-family: 'EB Garamond';
-    text-transform: uppercase;
-  }
-  .patrick-card #bottom-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 0.62em;
-    padding: 10px;
-  }
-  .patrick-card #phone-number {
-    position: absolute;
-    top: 20px;
-    left: 25px;
-    font-size: 0.95em;
-    margin: 0;
-  }
-  .patrick-card #company {
-    font-size: 0.95em;
-  }
-  .patrick-card #murders-and-executions {
-    font-size: 0.52em;
-  }
-  .patrick-card #first-name {
-    font-size: 0.75em;
-  }
-  .patrick-card #last-name {
-    font-size: 0.9em;
-  }
-  .patrick-card #title {
-    font-size: 0.76em;
-  }
-  .patrick-card #watermark {
-    display: none;
-  }
-  .van-patten-card {
-    background-color: #f0ead6;
-    font-family: 'Old Standard TT';
-    text-transform: uppercase;
-  }
-  .van-patten-card #bottom-info {
-    font-size: 0.5em;
-    padding-bottom: 15px;
-  }
-  .van-patten-card #phone-number {
-    font-size: 0.76em;
-  }
-  .van-patten-card #company {
-    font-size: 0.76em;
-  }
-  .van-patten-card #murders-and-executions {
-    font-size: 0.61em;
-    text-transform: none;
-  }
-  .van-patten-card #first-name {
-    font-size: 0.7em;
-    font-weight: bold;
-  }
-  .van-patten-card #last-name {
-    font-size: 0.75em;
-    font-weight: bold;
-  }
-  .van-patten-card #title {
-    font-size: 0.8em;
-    text-transform: none;
-  }
-  .van-patten-card #watermark {
-    display: none;
-  }
-  .bryce-card {
-    background-color: white;
-    font-family: 'Roboto';
-    text-transform: uppercase;
-  }
-  .bryce-card #bottom-info {
-    font-size: 0.5em;
-    padding-bottom: 15px;
-  }
-  .bryce-card #phone-number {
-    font-size: 0.76em;
-  }
-  .bryce-card #company {
-    font-size: 0.76em;
-  }
-  .bryce-card #murders-and-executions {
-    font-size: 0.51em;
-    text-transform: none;
-  }
-  .bryce-card #first-name {
-    font-size: 0.7em;
-  }
-  .bryce-card #last-name {
-    font-size: 0.75em;
-  }
-  .bryce-card #title {
-    font-size: 0.65em;
-    text-transform: none;
-  }
-  .bryce-card #watermark {
-    display: none;
-  }
-  .allen-card {
-    background-color: #fdfdfd;
-    font-family: 'Alegreya SC', sans-serif;
-    text-transform: uppercase;
-  }
-  .allen-card #bottom-info {
-    font-size: 0.7em;
-    padding-bottom: 15px;
-  }
-  .allen-card #phone-number {
-    font-size: 0.9em;
-  }
-  .allen-card #company {
-    font-size: 0.9em;
-  }
-  .allen-card #murders-and-executions {
-    font-size: 0.51em;
-  }
-  .allen-card #first-name {
-    font-size: 0.8em;
-    font-weight: bold;
-  }
-  .allen-card #last-name {
-    font-size: 0.9em;
-    font-weight: bold;
-  }
-  .allen-card #title {
-    font-size: 0.6em;
-  }
-  #phone-number {
-    position: absolute;
-    top: 20px;
-    left: 25px;
-  }
-  #murders-and-executions {
-    font-size: 0.52em;
-  }
-  #company-section {
-    position: absolute;
-    top: 20px;
-    right: 25px;
-  }
-  #company-section p {
-    margin: 0;
-  }
-  #name-and-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #first-name {
-    display: inline-block;
-  }
-  #last-name {
-    display: inline-block;
-  }
-  #title {
-    text-align: center;
-    font-size: 0.8em;
-  }
-  #bottom-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 0.62em;
-    padding: 10px;
-  }
-  #watermark {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-    opacity: 0.1;
-    color: black;
-    font-size: 1.2vw;
-  }
-  @media (min-width: 1100px) {
     #business-card p {
-      font-size: 1.6vw;
+      font-size: 0.95em;
+      margin: 0;
     }
-    #murders-and-executions {
-      font-size: 0.87vw;
-    }
-    #title {
-      font-size: 1.4vw;
-    }
-    #bottom-info {
-      font-size: 1vw;
-    }
-    .patrick-card #phone-number {
-      font-size: 1.6vw;
-    }
-    .patrick-card #company {
-      font-size: 1.6vw;
-    }
-    .patrick-card #murders-and-executions {
-      font-size: 0.87vw;
+
+    .patrick-card {
+      background-color: #e3dac9;
+      font-family: 'EB Garamond';
+      text-transform: uppercase;
     }
     .patrick-card #bottom-info {
-      font-size: 1vw;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.62em;
+      padding: 10px;
     }
-    .patrick-card #title {
-      font-size: 1.1vw;
+    .patrick-card #phone-number {
+      position: absolute;
+      top: 20px;
+      left: 25px;
+      font-size: 0.95em;
+      margin: 0;
+    }
+    .patrick-card #company {
+      font-size: 0.95em;
+    }
+    .patrick-card #murders-and-executions {
+      font-size: 0.52em;
     }
     .patrick-card #first-name {
-      font-size: 1.25vw;
+      font-size: 0.75em;
     }
     .patrick-card #last-name {
-      font-size: 1.6vw;
+      font-size: 0.9em;
     }
-
-    .van-patten-card #phone-number {
-      font-size: 1.1vw;
+    .patrick-card #title {
+      font-size: 0.76em;
     }
-    .van-patten-card #company {
-      font-size: 1.1vw;
+    .patrick-card #watermark {
+      display: none;
     }
-    .van-patten-card #murders-and-executions {
-      font-size: 0.89vw;
-      text-transform: none;
+    .van-patten-card {
+      background-color: #f0ead6;
+      font-family: 'Old Standard TT';
+      text-transform: uppercase;
     }
     .van-patten-card #bottom-info {
-      font-size: 0.8vw;
-      padding-bottom: 35px;
+      font-size: 0.5em;
+      padding-bottom: 15px;
     }
-    .van-patten-card #title {
-      font-size: 1.5vw;
+    .van-patten-card #phone-number {
+      font-size: 0.76em;
+    }
+    .van-patten-card #company {
+      font-size: 0.76em;
+    }
+    .van-patten-card #murders-and-executions {
+      font-size: 0.61em;
       text-transform: none;
     }
     .van-patten-card #first-name {
-      font-size: 1.4vw;
-    }
-    .van-patten-card #last-name {
-      font-size: 1.6vw;
+      font-size: 0.7em;
       font-weight: bold;
     }
-    .bryce-card #phone-number {
-      padding-top: 20px;
-      font-size: 1.1vw;
+    .van-patten-card #last-name {
+      font-size: 0.75em;
+      font-weight: bold;
     }
-    .bryce-card #company {
-      padding-top: 20px;
-      font-size: 1.1vw;
-    }
-    .bryce-card #murders-and-executions {
-      font-size: 0.74vw;
+    .van-patten-card #title {
+      font-size: 0.8em;
       text-transform: none;
     }
-    .bryce-card #bottom-info {
-      font-size: 0.9vw;
-      padding-bottom: 20px;
+    .van-patten-card #watermark {
+      display: none;
     }
-    .bryce-card #title {
-      font-size: 1.2vw;
+    .bryce-card {
+      background-color: white;
+      font-family: 'Roboto';
+      text-transform: uppercase;
+    }
+    .bryce-card #bottom-info {
+      font-size: 0.5em;
+      padding-bottom: 15px;
+    }
+    .bryce-card #phone-number {
+      font-size: 0.76em;
+    }
+    .bryce-card #company {
+      font-size: 0.76em;
+    }
+    .bryce-card #murders-and-executions {
+      font-size: 0.51em;
       text-transform: none;
     }
     .bryce-card #first-name {
-      font-size: 1.4vw;
+      font-size: 0.7em;
     }
     .bryce-card #last-name {
-      font-size: 1.6vw;
+      font-size: 0.75em;
     }
-    .allen-card #phone-number {
-      font-size: 1.2vw;
+    .bryce-card #title {
+      font-size: 0.65em;
+      text-transform: none;
     }
-    .allen-card #company {
-      font-size: 1.2vw;
+    .bryce-card #watermark {
+      display: none;
     }
-    .allen-card #murders-and-executions {
-      font-size: 0.685vw;
+    .allen-card {
+      background-color: #fdfdfd;
+      font-family: 'Alegreya SC', sans-serif;
+      text-transform: uppercase;
     }
     .allen-card #bottom-info {
-      font-size: 1.2vw;
-      padding-bottom: 20px;
+      font-size: 0.7em;
+      padding-bottom: 15px;
     }
-    .allen-card #title {
-      font-size: 1.2vw;
+    .allen-card #phone-number {
+      font-size: 0.9em;
+    }
+    .allen-card #company {
+      font-size: 0.9em;
+    }
+    .allen-card #murders-and-executions {
+      font-size: 0.51em;
     }
     .allen-card #first-name {
-      font-size: 1.6vw;
+      font-size: 0.8em;
       font-weight: bold;
     }
     .allen-card #last-name {
-      font-size: 1.8vw;
+      font-size: 0.9em;
       font-weight: bold;
     }
-  }
+    .allen-card #title {
+      font-size: 0.6em;
+    }
+    #phone-number {
+      position: absolute;
+      top: 20px;
+      left: 25px;
+    }
+    #murders-and-executions {
+      font-size: 0.52em;
+    }
+    #company-section {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+    }
+    #company-section p {
+      margin: 0;
+    }
+    #name-and-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #first-name {
+      display: inline-block;
+    }
+    #last-name {
+      display: inline-block;
+    }
+    #title {
+      text-align: center;
+      font-size: 0.8em;
+    }
+    #bottom-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.62em;
+      padding: 10px;
+    }
+    #watermark {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 10px;
+      opacity: 0.1;
+      color: black;
+      font-size: 1.2vw;
+    }
+    @media (min-width: 1100px) {
+      #business-card p {
+        font-size: 1.6vw;
+      }
+      #murders-and-executions {
+        font-size: 0.87vw;
+      }
+      #title {
+        font-size: 1.4vw;
+      }
+      #bottom-info {
+        font-size: 1vw;
+      }
+      .patrick-card #phone-number {
+        font-size: 1.6vw;
+      }
+      .patrick-card #company {
+        font-size: 1.6vw;
+      }
+      .patrick-card #murders-and-executions {
+        font-size: 0.87vw;
+      }
+      .patrick-card #bottom-info {
+        font-size: 1vw;
+      }
+      .patrick-card #title {
+        font-size: 1.1vw;
+      }
+      .patrick-card #first-name {
+        font-size: 1.25vw;
+      }
+      .patrick-card #last-name {
+        font-size: 1.6vw;
+      }
+
+      .van-patten-card #phone-number {
+        font-size: 1.1vw;
+      }
+      .van-patten-card #company {
+        font-size: 1.1vw;
+      }
+      .van-patten-card #murders-and-executions {
+        font-size: 0.89vw;
+        text-transform: none;
+      }
+      .van-patten-card #bottom-info {
+        font-size: 0.8vw;
+        padding-bottom: 35px;
+      }
+      .van-patten-card #title {
+        font-size: 1.5vw;
+        text-transform: none;
+      }
+      .van-patten-card #first-name {
+        font-size: 1.4vw;
+      }
+      .van-patten-card #last-name {
+        font-size: 1.6vw;
+        font-weight: bold;
+      }
+      .bryce-card #phone-number {
+        padding-top: 20px;
+        font-size: 1.1vw;
+      }
+      .bryce-card #company {
+        padding-top: 20px;
+        font-size: 1.1vw;
+      }
+      .bryce-card #murders-and-executions {
+        font-size: 0.74vw;
+        text-transform: none;
+      }
+      .bryce-card #bottom-info {
+        font-size: 0.9vw;
+        padding-bottom: 20px;
+      }
+      .bryce-card #title {
+        font-size: 1.2vw;
+        text-transform: none;
+      }
+      .bryce-card #first-name {
+        font-size: 1.4vw;
+      }
+      .bryce-card #last-name {
+        font-size: 1.6vw;
+      }
+      .allen-card #phone-number {
+        font-size: 1.2vw;
+      }
+      .allen-card #company {
+        font-size: 1.2vw;
+      }
+      .allen-card #murders-and-executions {
+        font-size: 0.685vw;
+      }
+      .allen-card #bottom-info {
+        font-size: 1.2vw;
+        padding-bottom: 20px;
+      }
+      .allen-card #title {
+        font-size: 1.2vw;
+      }
+      .allen-card #first-name {
+        font-size: 1.6vw;
+        font-weight: bold;
+      }
+      .allen-card #last-name {
+        font-size: 1.8vw;
+        font-weight: bold;
+      }
+    }
 
 /* navbar stuff here */ 
 
@@ -343,7 +343,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     top: 0;
-    /*background-color: #fff;*/
+    background-color: var(--bkg-color);
     opacity: 1
   }
   
