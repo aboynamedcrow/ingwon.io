@@ -376,6 +376,7 @@ html, body {
   }
   
   .navbar-fixed {
+    display: flex;
     top: 0;
     margin: auto;
     margin-left: auto;
