@@ -13,6 +13,7 @@ html, body {
   }
 
   body {
+    --font-family: 'Inter';
     --text-color: #222;
     --bkg-color: #fff;
   }
