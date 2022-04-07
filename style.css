@@ -1,5 +1,4 @@
 html, body {
-    font-family: 'Inter';
     margin: 0px;
     min-height: 100vh;
     height: fit-content;
@@ -13,12 +12,15 @@ html, body {
   }
 
   body {
+    
+    font-family: 'Inter';
     --text-color: #222;
     --bkg-color: #fff;
   }
 
   body.dark-theme {
-    --text-color: #eee;
+    font-family: 'Fira Code';
+    --text-color: rgb(89, 255, 0);
     --bkg-color: #121212;
   }
 
@@ -442,7 +444,7 @@ html, body {
 
     .dark-toggle{
       margin: auto;
-      margin-right: 70%;
+      margin-right: 75%;
     }
 
     .dark-toggle .switch {
