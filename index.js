@@ -14,24 +14,21 @@ $(document).ready(function() {
 
     darkSwitch.addEventListener("change", function () {
         if(this.checked) {
+            let theme = "dark";
             if (document.body.classList.contains("dark-theme")){
-                let theme = "dark";
-                localStorage.setItem("theme", theme);
+                theme = "dark";
             } else {
                 document.body.classList.add("dark-theme");
-                let theme = "dark";
-                localStorage.setItem("theme", theme);
             }}
             else {
+            let theme = ""
                 if (document.body.classList.contains("dark-theme")){
                     document.body.classList.toggle("dark-theme");
-                    let theme = "";
-                    localStorage.setItem("theme", theme);
                 } else {
                     let theme = "";
-                    localStorage.setItem("theme", theme);
                 }
             }
+        localStorage.setItem("theme", theme);
     });
 });
 
