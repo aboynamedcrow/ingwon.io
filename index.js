@@ -36,7 +36,7 @@ function showDropdown() {
         $('.navbar').removeClass('navbar-fixed');
       }
     });
-  /*});
+  });
 
 //Toggle Dark Mode via localStorage
 $(document).ready(function() {
