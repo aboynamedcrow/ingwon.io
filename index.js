@@ -44,7 +44,7 @@ function showDropdown() {
     }
   }
 
-  $(document).ready(function() {
+ /*$(document).ready(function() {*/
   
     $(window).scroll(function () {
         //if you hard code, then use console
@@ -59,4 +59,4 @@ function showDropdown() {
         $('.navbar').removeClass('navbar-fixed');
       }
     });
-  });
+  /*});*/
