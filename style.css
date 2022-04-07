@@ -26,6 +26,7 @@ html, body {
 .container-parent{
   display: flex;
   flex-direction: column;
+  min-height: 100%;
   height: fit-content;
   color: var(--text-color);
   background-color: var(--bkg-color);
