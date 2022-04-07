@@ -28,12 +28,20 @@ html, body {
   background-color: var(--bkg-color);
 }
 
+.container-parent{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  background-color: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*american psycho stuff here */
     #business-card {
       position: relative;
       margin: auto;
-      padding-top: 10px;
-      padding-bottom: 10px;
       top: 0;
       right: 0;
       bottom: 0;
