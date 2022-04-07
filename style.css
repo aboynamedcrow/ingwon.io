@@ -444,6 +444,7 @@ html, body {
       /* The switch - the box around the slider */
 
     .dark-toggle{
+      position: relative;
       margin: auto;
       margin-right: 30%;
     }
