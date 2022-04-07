@@ -1,5 +1,7 @@
 //Toggle Dark Mode via localStorage
-    const darkSwitch = document.querySelectorAll(".dark-toggle.switch");
+    /*const darkSwitch = document.querySelectorAll(".dark-toggle.switch");*/
+
+    const darkSwitch = document.querySelectorAll(".btn-test.btn-test-btn")
 
     console.log(darkSwitch);
 
