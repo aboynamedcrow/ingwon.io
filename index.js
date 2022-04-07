@@ -1,5 +1,5 @@
 //Toggle Dark Mode via localStorage
-    const btn = document.querySelector(".btn-toggle");
+    const darkSwitch = document.querySelectorAll(".dark-toggle.switch");
 
     const currentTheme = localStorage.getItem("theme");
 
@@ -9,7 +9,7 @@
     document.body.classList.add("dark-theme");
     }
 
-    btn.addEventListener("click", function () {
+    darkSwitch.addEventListener("click", function () {
     document.body.classList.toggle("dark-theme");
 
     let theme = "light";
