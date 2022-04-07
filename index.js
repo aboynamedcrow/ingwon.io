@@ -14,21 +14,21 @@ $(document).ready(function() {
 
     darkSwitch.addEventListener("change", function () {
 
-        console.log(this);
-
+        let theme = "dark";
+        
         if(this.checked) {
-            let theme = "dark";
+            theme = "dark";
             if (document.body.classList.contains("dark-theme")){
                 theme = "dark";
             } else {
                 document.body.classList.add("dark-theme");
             }}
             else {
-            let theme = ""
+            theme = ""
                 if (document.body.classList.contains("dark-theme")){
                     document.body.classList.toggle("dark-theme");
                 } else {
-                    let theme = "";
+                    theme = "";
                 }
             }
         localStorage.setItem("theme", theme);
