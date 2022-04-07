@@ -1,7 +1,20 @@
 
+// ensure that this runs after defer in embedded html scrip to ensure html frame can load. 
+fetch('psycho.html')
+.then(res => res.text())
+.then(text => {
+    let oldelem = document.querySelector("script#load-business-card");
+    let newelem = document.createElement("div");
+    newelem.innerHTML = text;
+    oldelem.parentNode.replaceChild(newelem,oldelem);
+})
+
 // checks URL to load right info on card
+//rfer to mappings in content page based on id/class tags for each link
 $(document).ready(function() {
+
     if(window.location.href.indexOf("/about")>-1) {
+
         $("#business-card").removeClass();
         $('#first-name').text('Patrick');
         $('#last-name').text('Bateman');
@@ -9,7 +22,9 @@ $(document).ready(function() {
         $('#bottom-info').html('358 Exchange Place New York, N.Y. 10099 FAX 212 555 6390 TELEX 10 4534');
         $('#murders-and-executions').text('Murders And Executions');
         $("#business-card").addClass("patrick-card");
+
     } else if(window.location.href.indexOf("/input")>-1) {
+
         $("#business-card").removeClass();
         $('#first-name').text('David');
         $('#last-name').text('Van Patten');
@@ -17,7 +32,9 @@ $(document).ready(function() {
         $('#bottom-info').html('358 Exchange Place New York, N.Y. 10099 FAX 212 555 6390 TELEX 10 4534');
         $('#murders-and-executions').text('Mergers And Acquisitions');
         $("#business-card").addClass("van-patten-card");
+
     } else if(window.location.href.indexOf("/output")>-1) {
+
         $("#business-card").removeClass();
         $('#first-name').text('Timothy');
         $('#last-name').text('Bryce');
@@ -25,7 +42,9 @@ $(document).ready(function() {
         $('#bottom-info').html('358 Exchange Place New York, N.Y. 10099 FAX 212 555 6390 TELEX 10 4534');
         $('#murders-and-executions').text('Mergers And Acquisitions');
         $("#business-card").addClass("bryce-card");
+
     } else if(window.location.href.indexOf("/contact")>-1) {
+
         $("#business-card").removeClass();
         $('#first-name').text('Paul');
         $('#last-name').text('Allen');
@@ -33,7 +52,9 @@ $(document).ready(function() {
         $('#bottom-info').html('358 Exchange Place New York, N.Y. 10099<br/>FAX 212 555 6390 TELEX 10 4534');
         $('#murders-and-executions').text('Mergers And Acquisitions');
         $("#business-card").addClass("allen-card");
+
     } else if(window.location.href.indexOf("/resume")>-1) {
+
         $("#business-card").removeClass();
         $('#first-name').text('Ingwon');
         $('#last-name').text('Chae');
