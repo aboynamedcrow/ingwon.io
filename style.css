@@ -28,7 +28,7 @@ html, body {
   background-color: var(--bkg-color);
 }
 
-.container-parent{
+.container-card{
   display: flex;
   flex-direction: column;
   height: 100%;
