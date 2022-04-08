@@ -428,7 +428,6 @@ html, body {
     color: inherit;
     opacity: 1;
     justify-content: right;
-    margin: 0 auto;
     margin-right: 0 auto;
   }
 
@@ -440,11 +439,10 @@ html, body {
     border: none;
     font-family: inherit;
     padding-left: 14px;
-    padding-right: 14px;
+    padding-right: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
     justify-content: right;
-    margin: auto;
     margin-left: auto;
     margin-right: 0;
     cursor: pointer;
