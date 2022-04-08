@@ -428,7 +428,7 @@ html, body {
     color: inherit;
     opacity: 1;
     justify-content: right;
-    margin-right: 0 auto;
+    margin-right: 0;
   }
 
   .dropbtn {
@@ -443,7 +443,6 @@ html, body {
     padding-top: 8px;
     padding-bottom: 8px;
     justify-content: right;
-    margin-left: auto;
     margin-right: 0;
     cursor: pointer;
   }
