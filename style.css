@@ -483,7 +483,7 @@ html, body {
         z-index: 1;
         fill: none;
         stroke: var(--color-invert);
-        stroke-width: 5px;
+        stroke-width: 8px;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
@@ -556,16 +556,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(10px);
+          transform: translateY(7px);
         }
         40% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         60% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         85% {
-          transform: translateY(10px);
+          transform: translateY(7px);
         }
         100% {
           transform: translateY(0px);
@@ -577,16 +577,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(10px);
+          transform: translateY(7px);
         }
         40% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         60% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         85% {
-          transform: translateY(10px);
+          transform: translateY(7px);
         }
         100% {
           transform: translateY(0px);
