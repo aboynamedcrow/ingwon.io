@@ -9,10 +9,10 @@ $(document).ready(function() {
 
     console.log(currentTheme);
 
-    if (currentTheme == "dark") {
+    /*if (currentTheme == "dark") {
     darkSwitch.checked = true;
     document.body.classList.add("dark-theme");
-    }
+    }*/
 
     darkSwitch.addEventListener("change", function () {
 
