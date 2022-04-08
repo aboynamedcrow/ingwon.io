@@ -10,6 +10,7 @@ $(document).ready(function() {
     console.log(currentTheme);
 
     if (currentTheme == "dark") {
+    darkSwitch.checked = true;
     document.body.classList.add("dark-theme");
     }
 
