@@ -691,8 +691,8 @@ html, body {
   
   .container-page {
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 2rem;
     min-height: 600px;
     background-color: var(--background-color);
@@ -704,7 +704,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    justify-content: center;
+    text-align: center;
   }
 
   .container-page a {
@@ -712,7 +712,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    justify-content: center;
+    text-align: center;
     text-decoration: none;
   }
 
@@ -764,6 +764,7 @@ html, body {
     display: block;
     overflow: hidden;
     justify-content: center;
+    text-align: center;
     width: 350px;
     z-index: 1;
     font-size: 18px;
@@ -776,6 +777,7 @@ html, body {
     content: "Wtf u actually clicked? relax..";
     position: absolute;
     justify-content: center;
+    text-align: center;
     top: 0;
     left: 0;
     bottom: 0;
