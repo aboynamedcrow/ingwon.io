@@ -513,11 +513,6 @@ html, body {
     stroke-linejoin: round;
   }
 
-  .power-switch input:not(:checked) {
-    color: #222;
-    opacity: 0.5;
-  }
-
   .power-switch .button .power-on .line,
   .power-switch .button .power-off .line {
     opacity: 0.2;
@@ -553,7 +548,8 @@ html, body {
     opacity: 0;
   }
   .power-switch input:checked + .button:after {
-    opacity: 0.15;
+    opacity: 0.5;
+    color: #222;
     transform: scale(2) perspective(1px) translateZ(0);
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
