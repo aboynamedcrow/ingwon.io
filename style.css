@@ -391,7 +391,6 @@ html, body {
     position: -webkit-sticky;
     position: sticky;
     align-items: center;
-    justify-content: center;
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
@@ -406,7 +405,6 @@ html, body {
     z-index: 100;
     position: fixed;
     align-items: center;
-    justify-content: center;
     width: 100%;
     transition: top 3s;
     background-color: var(--background-color);
