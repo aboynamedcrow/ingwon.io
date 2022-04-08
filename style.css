@@ -774,7 +774,7 @@ html, body {
 
   #onlyFans {
     display: block;
-    width: 350px;
+    /*width: 350px;*/
     z-index: 1;
     justify-content: center;
     text-align: center;
