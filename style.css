@@ -7,11 +7,11 @@ html, body {
   }
 
   body {
-    font-family: 'EB Garamond';
+    font-family: 'Garamond';
     color: #222;
     background-color: #fff;
     opacity: 1;
-    --font-family: 'EB Garamond';
+    --font-family: 'Garamond';
     --text-color: #222;
     --background-color: #fff;
 
