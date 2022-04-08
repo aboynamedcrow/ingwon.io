@@ -386,11 +386,12 @@ html, body {
     display: flex;
     top: 0;
     margin: auto;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
     position: -webkit-sticky;
     position: sticky;
     align-items: center;
+    justify-content: center;
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
@@ -400,11 +401,12 @@ html, body {
     display: flex;
     top: 0;
     margin: auto;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 100;
     position: fixed;
     align-items: center;
+    justify-content: center;
     width: 100%;
     transition: top 3s;
     background-color: var(--background-color);
