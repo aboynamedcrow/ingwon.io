@@ -391,6 +391,7 @@ html, body {
     position: -webkit-sticky;
     position: sticky;
     align-items: center;
+    justify-content: safe center;
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
@@ -405,6 +406,7 @@ html, body {
     z-index: 100;
     position: fixed;
     align-items: center;
+    justify-content: safe center;
 
     width: 100%;
     transition: top 3s;
@@ -427,6 +429,7 @@ html, body {
     background-color: inherit;
     color: inherit;
     opacity: 1;
+    justify-content: safe center;
     margin: 0 auto;
     margin-right: 0 auto;
   }
@@ -483,8 +486,8 @@ html, body {
     margin-left: 0 auto;
     position: relative;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: safe center;
+    align-items: center;
     width: var(--width);
     height: var(--height);  
 
