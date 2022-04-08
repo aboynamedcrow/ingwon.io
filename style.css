@@ -508,7 +508,7 @@ html, body {
     z-index: 1;
     fill: none;
     stroke: var(--color-invert);
-    stroke-width: 12px;
+    stroke-width: 8px;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
