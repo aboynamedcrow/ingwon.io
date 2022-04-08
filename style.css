@@ -690,8 +690,8 @@ html, body {
   
   .container-page {
     margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-bottom: 2rem;
     min-height: 600px;
     background-color: var(--background-color);
