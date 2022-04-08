@@ -771,7 +771,7 @@ html, body {
     margin-right: auto;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.4rem;
   }
 
   .container-contact a {
@@ -783,7 +783,7 @@ html, body {
   #onlyFans {
     display: block;
     z-index: 1;
-    font-size: 18px;
+    font-size: 1.4rem;
     cursor: pointer;
   }
   #onlyFans-checkbox {
@@ -796,7 +796,7 @@ html, body {
     left: 0;
     bottom: 0;
     display: block;
-    font-size: 18px;
+    font-size: 1.4rem;
     z-index: 1;
     overflow: hidden;
     background-color: var(--background-color);
