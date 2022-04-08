@@ -729,6 +729,8 @@ html, body {
     margin-bottom: auto;
     text-align: center;
     text-decoration: none;
+    background-color: inherit;
+    color: inherit;
   }
 
   
