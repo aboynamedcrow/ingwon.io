@@ -442,7 +442,7 @@ html, body {
   }
 
       /* The switch - the box around the slider */
-
+/*
       .power-switch {
         --color-invert: rgb(89, 255, 50);
         --width: 75px;
@@ -614,7 +614,7 @@ html, body {
           transform: scale(1);
         }
       }
-
+*/
   
   .container-page {
     margin-top: 10px;
