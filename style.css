@@ -22,6 +22,7 @@ html, body {
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
     --bkg-color: #152028;
+  transition:all ease-in-out 1s;
   }
 
 
