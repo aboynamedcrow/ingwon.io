@@ -20,8 +20,8 @@ html, body {
 
   body.dark-theme {
     font-family: 'Fira Code';
-    color: #222;
-    background-color: #fff;
+    color: rgb(89, 255, 0);
+    background-color: #152028;
     opacity: 1;
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
