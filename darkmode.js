@@ -3,25 +3,21 @@
 $(document).ready(function() {
     var darkSwitch = document.querySelector(".power-switch input[type='checkbox']");
 
-    console.log(darkSwitch);
-
     const currentTheme = localStorage.getItem("theme");
 
-    console.log(currentTheme);
-
-    if (currentTheme == "dark") {
+    if (currentTheme == "dark-theme") {
     darkSwitch.checked = true;
     document.body.classList.add("dark-theme");
     }
 
     darkSwitch.addEventListener("change", function () {
 
-        let theme = "dark";
+        let theme = "dark-theme";
 
         if(this.checked) {
-            theme = "dark";
+            theme = "dark-theme";
             if (document.body.classList.contains("dark-theme")){
-                theme = "dark";
+                theme = "dark-theme";
             } else {
                 document.body.classList.add("dark-theme");
             }}
