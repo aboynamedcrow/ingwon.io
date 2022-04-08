@@ -445,8 +445,8 @@ html, body {
 
       .power-switch {
         --color-invert: rgb(89, 255, 50);
-        --width: 150px;
-        --height: 150px;
+        --width: 100px;
+        --height: 100px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -613,15 +613,6 @@ html, body {
         100% {
           transform: scale(1);
         }
-      }
-      body {
-        background: #FFFFFF;
-        height: 100vh;
-        font: 400 16px "Poppins", sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
       }
   
   .container-page {
