@@ -10,6 +10,7 @@ html, body {
     font-family: 'Inter';
     color: #222;
     background-color: #fff;
+    opacity: 0;
     --font-family: 'Inter';
     --text-color: #222;
     --background-color: #fff;
@@ -21,6 +22,7 @@ html, body {
     font-family: 'Fira Code';
     color: #222;
     background-color: #fff;
+    opacity: 1;
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
     --background-color: #152028;
