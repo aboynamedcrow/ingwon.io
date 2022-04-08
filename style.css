@@ -7,11 +7,11 @@ html, body {
   }
 
   body {
-    font-family: 'Garamond';
+    font-family: 'Inter';
     color: #222;
     background-color: #fff;
     opacity: 1;
-    --font-family: 'Garamond';
+    --font-family: 'Inter';
     --text-color: #222;
     --background-color: #fff;
 
