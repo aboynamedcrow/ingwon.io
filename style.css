@@ -493,7 +493,7 @@ html, body {
     height: 100%;
     position: absolute;
     background: radial-gradient(circle closest-side, var(--color-invert), transparent);
-    filter: blur(20px);
+    /*filter: blur(20px);*/
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
     transform: perspective(1px) translateZ(0);
