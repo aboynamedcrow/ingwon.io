@@ -659,7 +659,7 @@ html, body {
 
   @media all and (orientation: portrait) {
     .container-page p {
-    font-size: 4vmax;
+    font-size: 2vmax;
     }
   }
 
