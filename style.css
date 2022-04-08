@@ -719,6 +719,7 @@ html, body {
     left: 0;
     bottom: 0;
     display: block;
+    z-index: 1;
     overflow: hidden;
     background-color: var(--background-color);
     color: var(--text-color);
