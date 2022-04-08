@@ -471,6 +471,7 @@ html, body {
     --color-invert: rgb(89, 255, 50);
     --width: 75px;
     --height: 75px;
+    color: #222;
     position: relative;
     display: flex;
     justify-content: center;
