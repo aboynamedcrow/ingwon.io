@@ -545,7 +545,7 @@ html, body {
     width: 100%;
     z-index: 2;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
   }
   .power-switch input:checked + .button:after {
     opacity: 0.25;
