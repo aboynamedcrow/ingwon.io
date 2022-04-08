@@ -29,8 +29,8 @@ html, body {
     --allen-font: 'Alegreya SC', sans-serif;
     --allen-text-transform: uppercase;
 
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
   body :after {
@@ -52,8 +52,8 @@ html, body {
     --allen-font: 'Alegreya SC', sans-serif;
     --allen-text-transform: uppercase;
 
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
   body.dark-theme {
@@ -64,8 +64,8 @@ html, body {
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
     --background-color: #152028;
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
   body.dark-theme :after {
@@ -76,8 +76,8 @@ html, body {
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
     --background-color: #152028;
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
 .container-parent{
