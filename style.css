@@ -414,6 +414,14 @@ html, body {
     opacity: 1
 }
 
+  .left-empty-space {
+    width: 100%;
+  }
+
+  .right-empty-space {
+    width: 100%;
+  }
+
   .dropdown {
     top: 0;
     overflow: hidden;
