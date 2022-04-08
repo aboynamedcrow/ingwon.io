@@ -699,6 +699,26 @@ html, body {
     color: var(--text-color);
   }
 
+  .container-page h1,h2,h3 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: center;
+  }
+
+  .container-page a {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  
+
+
   @media all and (orientation: landscape) {
     .container-page p {
     font-size: 2.5vmin;
