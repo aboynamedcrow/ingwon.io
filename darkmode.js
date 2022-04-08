@@ -9,18 +9,16 @@ $(document).ready(function() {
 
     console.log(currentTheme);
 
-    /*if (currentTheme == "dark") {
+    if (currentTheme == "dark") {
     darkSwitch.checked = true;
     document.body.classList.add("dark-theme");
-    }*/
+    }
 
     darkSwitch.addEventListener("change", function () {
 
         let theme = "dark";
-        console.log(darkSwitch.checked);
 
         if(this.checked) {
-            console.log(darkSwitch.checked);
             theme = "dark";
             if (document.body.classList.contains("dark-theme")){
                 theme = "dark";
@@ -28,7 +26,6 @@ $(document).ready(function() {
                 document.body.classList.add("dark-theme");
             }}
             else {
-            console.log(darkSwitch.checked);
             theme = ""
                 if (document.body.classList.contains("dark-theme")){
                     document.body.classList.toggle("dark-theme");
@@ -37,6 +34,5 @@ $(document).ready(function() {
                 }
             }
         localStorage.setItem("theme", theme);
-        console.log(darkSwitch);
     });
 });
