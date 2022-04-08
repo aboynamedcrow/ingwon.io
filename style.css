@@ -445,7 +445,7 @@ html, body {
     position: absolute;
     background-color: inherit;
     color: inherit;
-    z-index: 1;
+    z-index: 1000;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
