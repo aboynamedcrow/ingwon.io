@@ -512,7 +512,7 @@ html, body {
     }
 
 
-  /*.show {display:block;}*/
+  .show {display:block;}
   
   .container-page {
     margin-top: 10px;
