@@ -420,9 +420,7 @@ html, body {
     background-color: inherit;
     color: inherit;
     opacity: 1;
-    margin: auto;
-    margin-left: 10%;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .dropbtn {
@@ -473,6 +471,7 @@ html, body {
     --color-invert: rgb(89, 255, 50);
     --width: 63px;
     --height: 63px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: center;
