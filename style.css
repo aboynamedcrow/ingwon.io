@@ -688,7 +688,6 @@ html, body {
   }
 
   
-  
   .container-page {
     margin-top: 2rem;
     margin-left: 6rem;
@@ -699,16 +698,20 @@ html, body {
     color: var(--text-color);
   }
 
+  .container-page .welcome {
+    text-align: center;
+  }
+
   .container-page h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .container-page h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .container-page h3{
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .container-page h1,h2,h3 {
