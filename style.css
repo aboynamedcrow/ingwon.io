@@ -513,7 +513,7 @@ html, body {
     stroke-linejoin: round;
   }
 
-  .power-switch .button .power-off {
+  .power-switch input:not(:checked) {
     color: #222;
     opacity: 0.5;
   }
