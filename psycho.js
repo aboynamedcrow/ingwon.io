@@ -16,8 +16,6 @@ $(document).ready(function() {
 
     if(window.location.href.indexOf("/about")>-1) {
 
-        $('body').css('font-family','EB Garamond');
-
         $("#business-card").removeClass();
         $('#first-name').text('Patrick');
         $('#last-name').text('Bateman');
@@ -27,8 +25,6 @@ $(document).ready(function() {
         $("#business-card").addClass("patrick-card");
 
     } else if(window.location.href.indexOf("/input")>-1) {
-
-        $('body').css('font-family','EB Old Standard TT');
 
         $("#business-card").removeClass();
         $('#first-name').text('David');
@@ -40,8 +36,6 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/output")>-1) {
 
-        $('body').css('font-family','Roboto');
-
         $("#business-card").removeClass();
         $('#first-name').text('Timothy');
         $('#last-name').text('Bryce');
@@ -52,8 +46,6 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/contact")>-1) {
 
-        $('body').css('font-family','Alegreya SC','sans-serif');
-
         $("#business-card").removeClass();
         $('#first-name').text('Paul');
         $('#last-name').text('Allen');
@@ -63,8 +55,6 @@ $(document).ready(function() {
         $("#business-card").addClass("allen-card");
 
     } else if(window.location.href.indexOf("/resume")>-1) {
-
-        $('body').css('font-family','EB Garamond');
 
         $("#business-card").removeClass();
         $('#first-name').text('Ingwon');

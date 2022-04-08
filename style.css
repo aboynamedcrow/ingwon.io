@@ -40,31 +40,6 @@ html, body {
     -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
 
-  body.about-html {
-    font-family: var(--patrick-font);
-    --font-family: var(--patrick-font);
-  }
-
-  body.input-html {
-    font-family: 'Old Standard TT';
-    --font-family: var(--van-patten-font);
-  }
-
-  body.output-html {
-    font-family: 'Roboto';
-    --font-family: var(--bryce-font);
-  }
-
-  body.contact-html {
-    font-family: 'Alegreya SC', sans-serif;
-    --font-family: var(--allen-font);
-  }
-
-  body.resume-html {
-    font-family: var(--patrick-font);
-    --font-family: var(--patrick-font);
-  }
-
 .container-parent{
   display: flex;
   flex-direction: column;
