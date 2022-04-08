@@ -740,6 +740,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    justify-content: center;
   }
 
   .container-contact p {
@@ -748,6 +749,7 @@ html, body {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     font-size: 18px;
   }
 
@@ -761,6 +763,7 @@ html, body {
     position: relative;
     display: block;
     overflow: hidden;
+    justify-content: center;
     width: 350px;
     z-index: 1;
     font-size: 18px;
@@ -772,6 +775,7 @@ html, body {
   #onlyFans-checkbox:checked + #onlyFans:after {
     content: "Wtf u actually clicked? relax..";
     position: absolute;
+    justify-content: center;
     top: 0;
     left: 0;
     bottom: 0;
