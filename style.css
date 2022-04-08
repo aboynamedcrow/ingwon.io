@@ -699,6 +699,18 @@ html, body {
     color: var(--text-color);
   }
 
+  .container-page h1{
+    font-size: 2.5rem;
+  }
+
+  .container-page h2{
+    font-size: 2rem;
+  }
+
+  .container-page h3{
+    font-size: 1.5rem;
+  }
+
   .container-page h1,h2,h3 {
     margin-top: auto;
     margin-left: auto;
