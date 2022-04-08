@@ -405,6 +405,7 @@ html, body {
     z-index: 100;
     position: fixed;
     align-items: center;
+
     width: 100%;
     transition: top 3s;
     background-color: var(--background-color);
@@ -480,8 +481,8 @@ html, body {
     margin: 0 auto;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     width: var(--width);
     height: var(--height);  
 
