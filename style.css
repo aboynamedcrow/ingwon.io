@@ -5,23 +5,23 @@ html, body {
     height: fit-content;
     width: 100vw;
     overscroll-behavior:none;
-    transition: color 1s ease, background-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
   }
 
   html {
     color: var(--text-color);
     background-color: var(--bkg-color);
-    transition: color 1s ease, background-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
   }
 
   body {
     --font-family: 'Inter';
     --text-color: #222;
     --bkg-color: #fff;
-    transition: color 1s ease, background-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
   }
 
   body.dark-theme {
