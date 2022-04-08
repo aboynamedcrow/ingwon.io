@@ -476,8 +476,7 @@ html, body {
     justify-content: center;
     align-items: center;
     width: var(--width);
-    height: var(--height);
-    animation: pulsate 2.5s infinite alternate;     
+    height: var(--height);  
 
   }
   .power-switch .button {
@@ -527,6 +526,7 @@ html, body {
   }
   .power-switch .button .power-on {
     filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 1));
+    animation: pulsate 2.5s infinite alternate;   
   }
   .power-switch .button .power-on .line {
     opacity: 0;
