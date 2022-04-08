@@ -13,7 +13,11 @@ fetch('psycho.html')
 //rfer to mappings in content page based on id/class tags for each link
 $(document).ready(function() {
 
+    $(".body").removeClass('about-html','input-html','output-html','contact-html','resume-html');
+
     if(window.location.href.indexOf("/about")>-1) {
+
+        $(".body").addClass('about-html');
 
         $("#business-card").removeClass();
         $('#first-name').text('Patrick');
@@ -25,6 +29,8 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/input")>-1) {
 
+        $(".body").addClass('input-html');
+
         $("#business-card").removeClass();
         $('#first-name').text('David');
         $('#last-name').text('Van Patten');
@@ -34,6 +40,8 @@ $(document).ready(function() {
         $("#business-card").addClass("van-patten-card");
 
     } else if(window.location.href.indexOf("/output")>-1) {
+
+        $(".body").addClass('output-html');
 
         $("#business-card").removeClass();
         $('#first-name').text('Timothy');
@@ -45,6 +53,8 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/contact")>-1) {
 
+        $(".body").addClass('contact-html');
+
         $("#business-card").removeClass();
         $('#first-name').text('Paul');
         $('#last-name').text('Allen');
@@ -54,6 +64,8 @@ $(document).ready(function() {
         $("#business-card").addClass("allen-card");
 
     } else if(window.location.href.indexOf("/resume")>-1) {
+
+        $(".body").addClass('resume-html');
 
         $("#business-card").removeClass();
         $('#first-name').text('Ingwon');

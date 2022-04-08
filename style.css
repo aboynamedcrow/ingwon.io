@@ -7,13 +7,23 @@ html, body {
   }
 
   body {
-    font-family: 'Inter';
+    font-family: 'EB Garamond';
     color: #222;
     background-color: #fff;
     opacity: 1;
-    --font-family: 'Inter';
+    --font-family: 'EB Garamond';
     --text-color: #222;
     --background-color: #fff;
+
+    --patrick-font: 'EB Garamond';
+    --patrick-text-transform: uppercase;
+    --van-patten-font: 'Old Standard TT';
+    --van-patten-text-transform: uppercase;
+    --bryce-font: 'Roboto';
+    --bryce-text-transform: uppercase;
+    --allen-font: 'Alegreya SC', sans-serif;
+    --allen-text-transform: uppercase;
+
     transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
     -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
@@ -30,6 +40,30 @@ html, body {
     -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
 
+  .about-html {
+    font-family: var(--patrick-font);
+    --font-family: var(--patrick-font);
+  }
+
+  .input-html {
+    font-family: var(--van-patten-font);
+    --font-family: var(--van-patten-font);
+  }
+
+  .output-html {
+    font-family: var(--bryce-font);
+    --font-family: var(--bryce-font);
+  }
+
+  .contact-html {
+    font-family: var(--allen-font);
+    --font-family: var(--allen-font);
+  }
+
+  .resume-html {
+    font-family: var(--patrick-font);
+    --font-family: var(--patrick-font);
+  }
 
 .container-parent{
   display: flex;
@@ -72,8 +106,8 @@ html, body {
 
     .patrick-card {
       background-color: #e3dac9;
-      font-family: 'EB Garamond';
-      text-transform: uppercase;
+      font-family: var(--patrick-font);
+      text-transform: var(--patrick-text-transform);
     }
     .patrick-card #bottom-info {
       position: absolute;
@@ -111,8 +145,8 @@ html, body {
     }
     .van-patten-card {
       background-color: #f0ead6;
-      font-family: 'Old Standard TT';
-      text-transform: uppercase;
+      font-family: var(--van-patten-font);
+      text-transform: var(--van-patten-text-transform);
     }
     .van-patten-card #bottom-info {
       font-size: 0.5em;
@@ -145,8 +179,8 @@ html, body {
     }
     .bryce-card {
       background-color: white;
-      font-family: 'Roboto';
-      text-transform: uppercase;
+      font-family: var(--bryce-font);
+      text-transform: var(--bryce-text-transform);
     }
     .bryce-card #bottom-info {
       font-size: 0.5em;
@@ -177,8 +211,8 @@ html, body {
     }
     .allen-card {
       background-color: #fdfdfd;
-      font-family: 'Alegreya SC', sans-serif;
-      text-transform: uppercase;
+      font-family: var(--allen-font);
+      text-transform: var(--allen-text-transform);
     }
     .allen-card #bottom-info {
       font-size: 0.7em;
