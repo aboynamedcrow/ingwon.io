@@ -614,32 +614,8 @@ html, body {
       transform: scale(1);
     }
   }
-  body {
-    background: #1B1A23;
-    height: 100vh;
-    font: 400 16px "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  body .socials {
-    position: fixed;
-    display: block;
-    left: 20px;
-    bottom: 20px;
-  }
-  body .socials > a {
-    display: block;
-    width: 30px;
-    opacity: 0.2;
-    transform: scale(var(--scale, 0.8));
-    transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
-  }
-  body .socials > a:hover {
-    --scale: 1;
-  }
-  
+
+
   .container-page {
     margin-top: 10px;
     margin-left: auto;
