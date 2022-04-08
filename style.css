@@ -12,7 +12,7 @@ html, body {
 
   body {
     font-family: 'Inter';
-    font-size: calc(4vw + 4vh + 2vmin);
+    font-size: 62.5%;
     color: #222;
     background-color: #fff;
     opacity: 1;
