@@ -13,6 +13,7 @@ fetch('psycho.html')
 //rfer to mappings in content page based on id/class tags for each link
 $(document).ready(function() {
 
+
     if(window.location.href.indexOf("/about")>-1) {
 
         $("#business-card").removeClass();

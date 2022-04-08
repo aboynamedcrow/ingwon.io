@@ -1,5 +1,8 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html, body {
-    font-family: 'Inter';
     margin: 0px;
     min-height: 100vh;
     height: fit-content;
@@ -7,23 +10,75 @@ html, body {
     overscroll-behavior:none;
   }
 
-  html {
-    color: var(--text-color);
-    background-color: var(--bkg-color);
-  }
-
   body {
+    font-family: 'Inter';
+    font-size: 62.5%;
+    color: #222;
+    background-color: #fff;
+    opacity: 1;
     --font-family: 'Inter';
     --text-color: #222;
-    --bkg-color: #fff;
+    --background-color: #fff;
+
+    --patrick-font: 'EB Garamond';
+    --patrick-text-transform: uppercase;
+    --van-patten-font: 'Old Standard TT';
+    --van-patten-text-transform: uppercase;
+    --bryce-font: 'Roboto';
+    --bryce-text-transform: uppercase;
+    --allen-font: 'Alegreya SC', sans-serif;
+    --allen-text-transform: uppercase;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+  }
+
+  body :after {
+    font-family: 'Inter';
+    font-size: 62.5%;
+    color: #222;
+    background-color: #fff;
+    opacity: 1;
+    --font-family: 'Inter';
+    --text-color: #222;
+    --background-color: #fff;
+
+    --patrick-font: 'EB Garamond';
+    --patrick-text-transform: uppercase;
+    --van-patten-font: 'Old Standard TT';
+    --van-patten-text-transform: uppercase;
+    --bryce-font: 'Roboto';
+    --bryce-text-transform: uppercase;
+    --allen-font: 'Alegreya SC', sans-serif;
+    --allen-text-transform: uppercase;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
   body.dark-theme {
+    font-family: 'Fira Code';
+    color: rgb(89, 255, 0);
+    background-color: #152028;
+    opacity: 1;
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
-    --bkg-color: #121212;
+    --background-color: #152028;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
   }
 
+  body.dark-theme :after {
+    font-family: 'Fira Code';
+    color: rgb(89, 255, 0);
+    background-color: #152028;
+    opacity: 1;
+    --font-family: 'Fira Code';
+    --text-color: rgb(89, 255, 0);
+    --background-color: #152028;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+  }
 
 .container-parent{
   display: flex;
@@ -31,7 +86,7 @@ html, body {
   min-height: 100%;
   height: fit-content;
   color: var(--text-color);
-  background-color: var(--bkg-color);
+  background-color: var(--background-color);
 }
 
 .container-card{
@@ -66,8 +121,8 @@ html, body {
 
     .patrick-card {
       background-color: #e3dac9;
-      font-family: 'EB Garamond';
-      text-transform: uppercase;
+      font-family: var(--patrick-font);
+      text-transform: var(--patrick-text-transform);
     }
     .patrick-card #bottom-info {
       position: absolute;
@@ -105,8 +160,8 @@ html, body {
     }
     .van-patten-card {
       background-color: #f0ead6;
-      font-family: 'Old Standard TT';
-      text-transform: uppercase;
+      font-family: var(--van-patten-font);
+      text-transform: var(--van-patten-text-transform);
     }
     .van-patten-card #bottom-info {
       font-size: 0.5em;
@@ -139,8 +194,8 @@ html, body {
     }
     .bryce-card {
       background-color: white;
-      font-family: 'Roboto';
-      text-transform: uppercase;
+      font-family: var(--bryce-font);
+      text-transform: var(--bryce-text-transform);
     }
     .bryce-card #bottom-info {
       font-size: 0.5em;
@@ -171,8 +226,8 @@ html, body {
     }
     .allen-card {
       background-color: #fdfdfd;
-      font-family: 'Alegreya SC', sans-serif;
-      text-transform: uppercase;
+      font-family: var(--allen-font);
+      text-transform: var(--allen-text-transform);
     }
     .allen-card #bottom-info {
       font-size: 0.7em;
@@ -370,7 +425,8 @@ html, body {
     margin-right: auto;
     position: -webkit-sticky;
     position: sticky;
-    background-color: var(--bkg-color);
+    justify-content: safe center;
+    background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
   }
@@ -383,12 +439,22 @@ html, body {
     margin-right: auto;
     z-index: 100;
     position: fixed;
+    justify-content: safe center;
+
     width: 100%;
     transition: top 3s;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
 }
+
+  .left-empty-space {
+    margin-left: 0 auto;
+  }
+
+  .right-empty-space {
+    margin-right: 0 auto;
+  }
 
   .dropdown {
     top: 0;
@@ -396,9 +462,9 @@ html, body {
     background-color: inherit;
     color: inherit;
     opacity: 1;
-    margin: auto;
-    margin-left: 10%;
-    margin-right: auto;
+    justify-content: right;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .dropbtn {
@@ -408,13 +474,12 @@ html, body {
     opacity: 1;
     border: none;
     font-family: inherit;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 14px;
+    padding-right: 0;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: right;
+    margin-right: 0;
     cursor: pointer;
   }
 
@@ -423,7 +488,7 @@ html, body {
     position: absolute;
     background-color: inherit;
     color: inherit;
-    z-index: 1;
+    z-index: 1000;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -441,85 +506,208 @@ html, body {
     margin: 16px;
   }
 
-      /* The switch - the box around the slider */
-
-    .dark-toggle{
-      position: relative;
-      margin: auto;
-      margin-right: 30%;
-    }
-
-    .dark-toggle .switch {
-      position: relative;
-      display: inline-block;
-      width: 30px;
-      height: 17px;
-    }
-
-    /* Hide default HTML checkbox */
-    .dark-toggle .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    /* The slider */
-    .dark-toggle .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      -webkit-transition: .4s;
-      transition: .4s;
-    }
-
-    .dark-toggle .slider:before {
-      position: absolute;
-      content: "";
-      height: 13px;
-      width: 13px;
-      left: 2px;
-      bottom: 2px;
-      background-color: white;
-      -webkit-transition: .4s;
-      transition: .4s;
-    }
-
-    .dark-toggle input:checked + .slider {
-      background-color: #36f321;
-    }
-
-    .dark-toggle input:focus + .slider {
-      box-shadow: 0 0 1px #33f321;
-    }
-
-    .dark-toggle input:checked + .slider:before {
-      -webkit-transform: translateX(13px);
-      -ms-transform: translateX(13px);
-      transform: translateX(13px);
-    }
-
-    /* Rounded sliders */
-    .dark-toggle .slider.round {
-      border-radius: 17px;
-    }
-
-    .dark-toggle .slider.round:before {
-      border-radius: 50%;
-    }
-
   .show {display:block;}
+
+  /* The switch - the box around the slider */
+
+  .power-switch {
+    --color-invert: rgb(89, 255, 50);
+    --width: 63px;
+    --height: 63px;
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: var(--width);
+    height: var(--height);  
+
+  }
+  .power-switch .button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left:0;
+    padding-left: 0;
+    justify-content: left;
+    position: relative;
+  }
+  .power-switch .button:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(circle closest-side, var(--color-invert), transparent);
+    /*filter: blur(20px);*/
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: perspective(1px) translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .power-switch .button .power-on,
+  .power-switch .button .power-off {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    fill: none;
+    stroke: var(--color-invert);
+    stroke-width: 10px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .power-switch .button .power-on .line,
+  .power-switch .button .power-off .line {
+    opacity: 0.2;
+  }
+  .power-switch .button .power-on .circle,
+  .power-switch .button .power-off .circle {
+    opacity: 0.2;
+    transform: rotate(-58deg);
+    transform-origin: center 33px;
+    stroke-dasharray: 220;
+    stroke-dashoffset: 40;
+  }
+  .power-switch .button .power-on {
+    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 1)); 
+  }
+
+  .power-switch .button .power-on .line {
+    opacity: 0;
+    transition: opacity 0.3s ease 1s;
+  }
+  .power-switch .button .power-on .circle {
+    opacity: 1;
+    stroke-dashoffset: 220;
+    transition: transform 0s ease, stroke-dashoffset 1s ease 0s;
+  }
+  .power-switch input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .power-switch input:checked + .button:after {
+    opacity: 0.20;
+    transform: scale(2) perspective(1px) translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .power-switch input:checked + .button .power-on,
+  .power-switch input:checked + .button .power-off {
+    -webkit-animation: click-animation 0.3s ease forwards;
+            animation: click-animation 0.3s ease forwards;
+    transform: scale(1);
+  }
+  .power-switch input:checked + .button .power-on .line,
+  .power-switch input:checked + .button .power-off .line {
+    -webkit-animation: line-animation 0.8s ease-in forwards;
+            animation: line-animation 0.8s ease-in forwards;
+  }
+  .power-switch input:checked + .button .power-on .circle,
+  .power-switch input:checked + .button .power-off .circle {
+    transform: rotate(302deg);
+  }
+  .power-switch input:checked + .button .power-on .line {
+    opacity: 1;
+    transition: opacity 0.05s ease-in 0.55s;
+  }
+  .power-switch input:checked + .button .power-on .circle {
+    transform: rotate(302deg);
+    stroke-dashoffset: 40;
+    transition: transform 0.4s ease 0.2s, stroke-dashoffset 0.4s ease 0.2s;
+  }
+  
+  @-webkit-keyframes line-animation {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(10px);
+    }
+    40% {
+      transform: translateY(-25px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+    85% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes line-animation {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(10px);
+    }
+    40% {
+      transform: translateY(-25px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+    85% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @-webkit-keyframes click-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes click-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  
   
   .container-page {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     min-height: 600px;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
+  }
+
+  @media all and (orientation: landscape) {
+    .container-page p {
+    font-size: 2.5vmin;
+    }
+  }
+
+  @media all and (orientation: portrait) {
+    .container-page p {
+    font-size: 2vmax;
+    }
   }
 
   /*contact page here*/
@@ -552,7 +740,9 @@ html, body {
     position: relative;
     display: block;
     overflow: hidden;
-    width: 300px;
+    width: 350px;
+    z-index: 1;
+    font-size: 18px;
     cursor: pointer;
   }
   #onlyFans-checkbox {
@@ -565,8 +755,10 @@ html, body {
     left: 0;
     bottom: 0;
     display: block;
+    font-size: 18px;
+    z-index: 1;
     overflow: hidden;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     cursor: pointer;
   }
