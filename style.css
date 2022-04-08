@@ -700,15 +700,15 @@ html, body {
   }
 
   .container-page h1{
-    font-size: 2.5rem;
-  }
-
-  .container-page h2{
     font-size: 2rem;
   }
 
-  .container-page h3{
+  .container-page h2{
     font-size: 1.5rem;
+  }
+
+  .container-page h3{
+    font-size: 1.2rem;
   }
 
   .container-page h1,h2,h3 {
@@ -774,9 +774,6 @@ html, body {
   #onlyFans {
     position: relative;
     display: block;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
     width: 350px;
     z-index: 1;
     font-size: 18px;
