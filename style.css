@@ -653,13 +653,13 @@ html, body {
 
   @media all and (orientation: landscape) {
     .container-page p {
-    font-size: 4vmin;
+    font-size: 2.5vmin;
     }
   }
 
   @media all and (orientation: portrait) {
     .container-page p {
-    font-size: 4max;
+    font-size: 4vmax;
     }
   }
 
