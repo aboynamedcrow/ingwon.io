@@ -494,7 +494,7 @@ html, body {
     height: 100%;
     position: absolute;
     background: radial-gradient(circle closest-side, var(--color-invert), transparent);
-    filter: blur(40px);
+    filter: blur(20px);
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
     transform: perspective(1px) translateZ(0);
@@ -526,7 +526,7 @@ html, body {
     stroke-dashoffset: 40;
   }
   .power-switch .button .power-on {
-    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.8));
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
   }
   .power-switch .button .power-on .line {
     opacity: 0;
