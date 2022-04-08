@@ -33,7 +33,42 @@ html, body {
     -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
 
+  body :after {
+    font-family: 'Inter';
+    font-size: 62.5%;
+    color: #222;
+    background-color: #fff;
+    opacity: 1;
+    --font-family: 'Inter';
+    --text-color: #222;
+    --background-color: #fff;
+
+    --patrick-font: 'EB Garamond';
+    --patrick-text-transform: uppercase;
+    --van-patten-font: 'Old Standard TT';
+    --van-patten-text-transform: uppercase;
+    --bryce-font: 'Roboto';
+    --bryce-text-transform: uppercase;
+    --allen-font: 'Alegreya SC', sans-serif;
+    --allen-text-transform: uppercase;
+
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+  }
+
   body.dark-theme {
+    font-family: 'Fira Code';
+    color: rgb(89, 255, 0);
+    background-color: #152028;
+    opacity: 1;
+    --font-family: 'Fira Code';
+    --text-color: rgb(89, 255, 0);
+    --background-color: #152028;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+  }
+
+  body.dark-theme :after {
     font-family: 'Fira Code';
     color: rgb(89, 255, 0);
     background-color: #152028;
