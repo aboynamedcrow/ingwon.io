@@ -74,8 +74,8 @@ html, body {
       left: 0;
       width: 350px;
       height: 200px;
-      /*min-width: 36.297828vw;
-      min-height: 20.78119924vw;*/
+      min-width: 36.297828vw;
+      min-height: 20.78119924vw;
     }
 
     #business-card p {
