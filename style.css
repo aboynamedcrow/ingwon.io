@@ -511,7 +511,8 @@ html, body {
       border-radius: 50%;
     }
 
-  .show {display:block;}
+
+  /*.show {display:block;}*/
   
   .container-page {
     margin-top: 10px;
