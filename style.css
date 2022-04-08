@@ -445,8 +445,8 @@ html, body {
 
       .power-switch {
         --color-invert: rgb(89, 255, 50);
-        --width: 100px;
-        --height: 100px;
+        --width: 75px;
+        --height: 75px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -495,12 +495,12 @@ html, body {
       .power-switch .button .power-off .circle {
         opacity: 0.2;
         transform: rotate(-58deg);
-        transform-origin: center 53px;
-        stroke-dasharray: 147;
-        stroke-dashoffset: 27;
+        transform-origin: center 40px;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 20;
       }
       .power-switch .button .power-on {
-        filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+        filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.8));
       }
       .power-switch .button .power-on .line {
         opacity: 0;
@@ -508,7 +508,7 @@ html, body {
       }
       .power-switch .button .power-on .circle {
         opacity: 1;
-        stroke-dashoffset: 147;
+        stroke-dashoffset: 110;
         transition: transform 0s ease, stroke-dashoffset 1s ease 0s;
       }
       .power-switch input {
@@ -556,16 +556,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(7px);
+          transform: translateY(10px);
         }
         40% {
-          transform: translateY(-17px);
+          transform: translateY(-25px);
         }
         60% {
-          transform: translateY(-17px);
+          transform: translateY(-25px);
         }
         85% {
-          transform: translateY(7px);
+          transform: translateY(10px);
         }
         100% {
           transform: translateY(0px);
@@ -577,16 +577,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(7px);
+          transform: translateY(10px);
         }
         40% {
-          transform: translateY(-17px);
+          transform: translateY(-25px);
         }
         60% {
-          transform: translateY(-17px);
+          transform: translateY(-25px);
         }
         85% {
-          transform: translateY(7px);
+          transform: translateY(10px);
         }
         100% {
           transform: translateY(0px);
