@@ -691,8 +691,8 @@ html, body {
   
   .container-page {
     margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     margin-bottom: 2rem;
     min-height: 600px;
     background-color: var(--background-color);
@@ -775,12 +775,12 @@ html, body {
   }
   #onlyFans-checkbox:checked + #onlyFans:after {
     content: "Wtf u actually clicked? relax..";
-    position: absolute;
+    position: relative;
     justify-content: center;
     text-align: center;
-    top: 0;
+    /*top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0;*/
     display: block;
     font-size: 18px;
     z-index: 1;
