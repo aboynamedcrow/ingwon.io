@@ -25,7 +25,9 @@
 
     <!---JS file-->
     <script defer src="index.js"></script>
-
+    <script defer src="psycho.js"></script>
+    <script defer src="darkmode.js"></script>
+    
 
   </head>
   
@@ -53,10 +55,49 @@
       </div>
     </Div>	
       <!--End of business card rendering-->
-      <script src="psycho.js"></script>
       
       <!--Start of Nav Bar. include on all html files except for navbar.html-->
-      <script id='replace-with-navbar' src="navbar.js"></script>
+      <nav class="navbar">
+  
+        <nav class="dropdown">
+          <button onclick="showDropdown()" class="dropbtn">
+            ingwon
+          </button>
+          <nav id='myDropdown' class="dropdown-content">
+            <a id="patrick" href="/">cd ~</a>
+            <a id="patrick-alt" href="/about.html">about</a>
+            <a id="david-van-patten" href="/input.html">input/</a>
+            <a id="timothy-bryce" href="/output.html">output</a>
+            <a id="paul-allen" href="/contact.html">contact</a>
+            <a id="ingwon-chae" href="/resume.html">resumé</a>
+          </nav>
+        </nav>
+      
+        <div class="power-switch">
+          <input type="checkbox" />
+          <div class="button">
+            <svg class="power-off">
+              <use xlink:href="#line" class="line" />
+              <use xlink:href="#circle" class="circle" />
+            </svg>
+            <svg class="power-on">
+              <use xlink:href="#line" class="line" />
+              <use xlink:href="#circle" class="circle" />
+            </svg>
+          </div>
+        </div>
+        
+        <!-- SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="line">
+            <line x1="75" y1="34" x2="75" y2="58"/>
+          </symbol>
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="circle">
+            <circle cx="75" cy="80" r="35"/>
+          </symbol>
+        </svg>
+      
+      </nav>
       <!--End of Nav Bar.-->
 
       <div class="container-page"> <br>
@@ -69,6 +110,5 @@
         </p>
       </div>
     </div>
-    <!---<script defer src="darkmode.js"></script>--->
   </body>
 </html>
