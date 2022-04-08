@@ -1,35 +1,25 @@
 html, body {
-    font-family: 'Inter';
     margin: 0px;
     min-height: 100vh;
     height: fit-content;
     width: 100vw;
     overscroll-behavior:none;
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
-  }
-
-  html {
-    color: var(--text-color);
-    background-color: var(--bkg-color);
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
   }
 
   body {
     --font-family: 'Inter';
     --text-color: #222;
-    --bkg-color: #fff;
-    transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease, --bkg-color 1s ease;
+    --background-color: #fff;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
 
   body.dark-theme {
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
-    --bkg-color: #152028;
-    transition: color 1s ease, background-color 1s ease;
-    -webkit-transition: color 1s ease, background-color 1s ease;
+    --background-color: #152028;
+    transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
+    -webkit-transition: color 1s ease, background-color 1s ease, --text-color 1s ease;
   }
 
 
@@ -39,7 +29,7 @@ html, body {
   min-height: 100%;
   height: fit-content;
   color: var(--text-color);
-  background-color: var(--bkg-color);
+  background-color: var(--background-color);
 }
 
 .container-card{
@@ -378,7 +368,7 @@ html, body {
     margin-right: auto;
     position: -webkit-sticky;
     position: sticky;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
   }
@@ -393,7 +383,7 @@ html, body {
     position: fixed;
     width: 100%;
     transition: top 3s;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1
 }
@@ -633,7 +623,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     min-height: 600px;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
   }
 
@@ -681,7 +671,7 @@ html, body {
     bottom: 0;
     display: block;
     overflow: hidden;
-    background-color: var(--bkg-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     cursor: pointer;
   }
