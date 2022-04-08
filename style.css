@@ -445,8 +445,8 @@ html, body {
 
       .power-switch {
         --color-invert: rgb(89, 255, 50);
-        --width: 150px;
-        --height: 150px;
+        --width: 100px;
+        --height: 100px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -483,7 +483,7 @@ html, body {
         z-index: 1;
         fill: none;
         stroke: var(--color-invert);
-        stroke-width: 8px;
+        stroke-width: 5px;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
@@ -495,12 +495,12 @@ html, body {
       .power-switch .button .power-off .circle {
         opacity: 0.2;
         transform: rotate(-58deg);
-        transform-origin: center 80px;
-        stroke-dasharray: 220;
-        stroke-dashoffset: 40;
+        transform-origin: center 53px;
+        stroke-dasharray: 147;
+        stroke-dashoffset: 27;
       }
       .power-switch .button .power-on {
-        filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.8));
+        filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
       }
       .power-switch .button .power-on .line {
         opacity: 0;
@@ -508,7 +508,7 @@ html, body {
       }
       .power-switch .button .power-on .circle {
         opacity: 1;
-        stroke-dashoffset: 220;
+        stroke-dashoffset: 147;
         transition: transform 0s ease, stroke-dashoffset 1s ease 0s;
       }
       .power-switch input {
