@@ -469,8 +469,8 @@ html, body {
 
   .power-switch {
     --color-invert: rgb(89, 255, 50);
-    --width: 75px;
-    --height: 75px;
+    --width: 63px;
+    --height: 63px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -521,7 +521,7 @@ html, body {
   .power-switch .button .power-off .circle {
     opacity: 0.2;
     transform: rotate(-58deg);
-    transform-origin: center 40px;
+    transform-origin: center 33px;
     stroke-dasharray: 220;
     stroke-dashoffset: 40;
   }
