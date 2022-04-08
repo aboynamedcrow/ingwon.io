@@ -645,26 +645,26 @@ html, body {
     100% {
       /* Larger blur radius */
       text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 20px rgb(89, 255, 50),
         0 0 40px rgb(89, 255, 50),
-        0 0 80px rgb(89, 255, 50),
-        0 0 90px rgb(89, 255, 50),
-        0 0 100px rgb(89, 255, 50),
-        0 0 150px rgb(89, 255, 50);
+        0 0 45px rgb(89, 255, 50),
+        0 0 50px rgb(89, 255, 50),
+        0 0 75px rgb(89, 255, 50);
     }
     0% {
       /* Smaller blur radius */
       text-shadow:
+        0 0 0.5px #fff,
         0 0 2px #fff,
-        0 0 4px #fff,
-        0 0 6px #fff,
-        0 0 10px rgb(89, 255, 50),
-        0 0 45px rgb(89, 255, 50),
-        0 0 55px rgb(89, 255, 50),
-        0 0 70px rgb(89, 255, 50),
-        0 0 80px rgb(89, 255, 50);
+        0 0 3px #fff,
+        0 0 5px rgb(89, 255, 50),
+        0 0 22px rgb(89, 255, 50),
+        0 0 27px rgb(89, 255, 50),
+        0 0 35px rgb(89, 255, 50),
+        0 0 40px rgb(89, 255, 50);
     }
   }
 
