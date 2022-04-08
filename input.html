@@ -26,12 +26,18 @@
     <!---JS file-->
     <script defer src="index.js"></script>
     <script defer src="psycho.js"></script>
-    <script src="darkmode.js"></script>
+    <script defer src="darkmode.js"></script>
     
 
   </head>
   
   <body>
+    <script>
+      const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark-theme") {
+        document.body.classList.add("dark-theme");
+        }
+    </script>
     <div class="container-parent">
       <Div class="container-card">
         <div class="patrick-card" id="business-card">
