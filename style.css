@@ -697,6 +697,7 @@ html, body {
     display: block;
     overflow: hidden;
     width: 350px;
+    z-index: 1;
     cursor: pointer;
   }
   #onlyFans-checkbox {
