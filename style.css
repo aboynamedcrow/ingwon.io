@@ -7,6 +7,9 @@ html, body {
   }
 
   body {
+    font-family: 'Inter';
+    color: #222;
+    background-color: #fff;
     --font-family: 'Inter';
     --text-color: #222;
     --background-color: #fff;
@@ -15,6 +18,9 @@ html, body {
   }
 
   body.dark-theme {
+    font-family: 'Fira Code';
+    color: #222;
+    background-color: #fff;
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
     --background-color: #152028;
