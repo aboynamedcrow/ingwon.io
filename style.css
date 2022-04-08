@@ -787,9 +787,9 @@ html, body {
     position: relative;
     justify-content: center;
     text-align: center;
-    /*top: 0;
+    top: 0;
     left: 0;
-    bottom: 0;*/
+    bottom: 0;
     display: block;
     font-size: 18px;
     z-index: 1;
