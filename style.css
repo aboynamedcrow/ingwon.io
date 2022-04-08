@@ -390,7 +390,6 @@ html, body {
     margin-right: auto;
     position: -webkit-sticky;
     position: sticky;
-    align-items: center;
     justify-content: safe center;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -405,7 +404,6 @@ html, body {
     margin-right: auto;
     z-index: 100;
     position: fixed;
-    align-items: center;
     justify-content: safe center;
 
     width: 100%;
@@ -442,11 +440,10 @@ html, body {
     border: none;
     font-family: inherit;
     padding-left: 14px;
-    padding-right: 14px;
+    padding-right: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
     justify-content: right;
-    align-items: right;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -489,7 +486,6 @@ html, body {
     position: relative;
     display: flex;
     justify-content: left;
-    align-items: left;
     width: var(--width);
     height: var(--height);  
 
@@ -499,7 +495,6 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: left;
-    align-items: left;
     position: relative;
   }
   .power-switch .button:after {
