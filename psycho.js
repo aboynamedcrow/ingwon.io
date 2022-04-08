@@ -13,11 +13,10 @@ fetch('psycho.html')
 //rfer to mappings in content page based on id/class tags for each link
 $(document).ready(function() {
 
-    document.body.classList.remove('about-html','input-html','output-html','contact-html','resume-html');
 
     if(window.location.href.indexOf("/about")>-1) {
 
-        document.body.classList.add('about-html');
+        $('body').css('font-family','EB Garamond');
 
         $("#business-card").removeClass();
         $('#first-name').text('Patrick');
@@ -29,7 +28,7 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/input")>-1) {
 
-        document.body.classList.add('input-html');
+        $('body').css('font-family','EB Old Standard TT');
 
         $("#business-card").removeClass();
         $('#first-name').text('David');
@@ -41,7 +40,7 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/output")>-1) {
 
-        document.body.classList.add('output-html');
+        $('body').css('font-family','Roboto');
 
         $("#business-card").removeClass();
         $('#first-name').text('Timothy');
@@ -53,7 +52,7 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/contact")>-1) {
 
-        document.body.classList.add('contact-html');
+        $('body').css('font-family','Alegreya SC','sans-serif');
 
         $("#business-card").removeClass();
         $('#first-name').text('Paul');
@@ -65,7 +64,7 @@ $(document).ready(function() {
 
     } else if(window.location.href.indexOf("/resume")>-1) {
 
-        document.body.classList.add('resume-html');
+        $('body').css('font-family','EB Garamond');
 
         $("#business-card").removeClass();
         $('#first-name').text('Ingwon');
