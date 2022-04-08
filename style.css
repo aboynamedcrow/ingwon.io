@@ -389,7 +389,7 @@ html, body {
     margin-right: auto;
     z-index: 100;
     position: fixed;
-    width: 100%;
+    /*width: 100%;*/
     transition: top 3s;
     background-color: var(--background-color);
     color: var(--text-color);
