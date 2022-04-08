@@ -512,6 +512,13 @@ html, body {
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+
+  .power-switch .button .power-off {
+    color: #222;
+    opacity: 0.5;
+  }
+
+
   .power-switch .button .power-on .line,
   .power-switch .button .power-off .line {
     opacity: 0.2;
