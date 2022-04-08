@@ -733,6 +733,9 @@ html, body {
     color: inherit;
   }
 
+  .container-page .selected-writing{
+    text-align: center;
+  }
   
 
 
