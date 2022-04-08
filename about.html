@@ -32,6 +32,12 @@
   </head>
   
   <body>
+    <script>
+      const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark-theme") {
+        document.body.classList.add("dark-theme");
+        }
+    </script>
     <div class="container-parent">
       <Div class="container-card">
         <div class="patrick-card" id="business-card">
@@ -66,7 +72,7 @@
           <nav id='myDropdown' class="dropdown-content">
             <a id="patrick" href="/">cd ~</a>
             <a id="patrick-alt" href="/about.html">about</a>
-            <a id="david-van-patten" href="/input.html">input/</a>
+            <a id="david-van-patten" href="/input.html">input</a>
             <a id="timothy-bryce" href="/output.html">output</a>
             <a id="paul-allen" href="/contact.html">contact</a>
             <a id="ingwon-chae" href="/resume.html">resumé</a>
@@ -106,9 +112,10 @@
 
       <div class="container-page"> <br>
         
-            <h1>about me</h1>
-            <p>in progress
-          </p>
+            <h1>about this place</h1>
+            <p>
+              this site was created in april 2022 by ingwon chae. its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and jokes. i hope you enjoy your stay on this tiny island in the unfathomably vast ocean that is the internet.
+            </p>
       </div>
     </div>
   </body>

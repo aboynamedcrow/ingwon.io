@@ -688,15 +688,56 @@ html, body {
   }
 
   
-  
   .container-page {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
     min-height: 600px;
     background-color: var(--background-color);
     color: var(--text-color);
   }
+
+  .container-page .welcome {
+    text-align: center;
+  }
+
+  .container-page h1{
+    font-size: 1.8rem;
+  }
+
+  .container-page h2{
+    font-size: 1.4rem;
+  }
+
+  .container-page h3{
+    font-size: 1.15rem;
+  }
+
+  .container-page h1,h2,h3 {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
+  .container-page a {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .container-page .selected-writing{
+    text-align: center;
+  }
+  
+
 
   @media all and (orientation: landscape) {
     .container-page p {
@@ -719,6 +760,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    justify-content: center;
   }
 
   .container-contact p {
@@ -727,7 +769,9 @@ html, body {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
   }
 
   .container-contact a {
@@ -737,12 +781,9 @@ html, body {
   }
 
   #onlyFans {
-    position: relative;
     display: block;
-    overflow: hidden;
-    width: 350px;
     z-index: 1;
-    font-size: 18px;
+    font-size: 1.4rem;
     cursor: pointer;
   }
   #onlyFans-checkbox {
@@ -750,12 +791,12 @@ html, body {
   }
   #onlyFans-checkbox:checked + #onlyFans:after {
     content: "Wtf u actually clicked? relax..";
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
     display: block;
-    font-size: 18px;
+    font-size: 1.4rem;
     z-index: 1;
     overflow: hidden;
     background-color: var(--background-color);

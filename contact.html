@@ -32,6 +32,12 @@
   </head>
   
   <body>
+    <script>
+      const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark-theme") {
+        document.body.classList.add("dark-theme");
+        }
+    </script>
     <div class="container-parent">
       <Div class="container-card">
         <div class="patrick-card" id="business-card">
@@ -66,7 +72,7 @@
           <nav id='myDropdown' class="dropdown-content">
             <a id="patrick" href="/">cd ~</a>
             <a id="patrick-alt" href="/about.html">about</a>
-            <a id="david-van-patten" href="/input.html">input/</a>
+            <a id="david-van-patten" href="/input.html">input</a>
             <a id="timothy-bryce" href="/output.html">output</a>
             <a id="paul-allen" href="/contact.html">contact</a>
             <a id="ingwon-chae" href="/resume.html">resumé</a>
@@ -105,6 +111,9 @@
       <!--End of Nav Bar.-->
 
       <div class="container-page"> <br>
+        <h1>contact me</h1>
+        <br>
+        <br>
         
         <div class="container-contact">
 
