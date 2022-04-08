@@ -468,10 +468,10 @@ html, body {
   /* The switch - the box around the slider */
 
   .power-switch {
-    --color-invert: rgb(89, 255, 50);
+    /*--color-invert: rgb(89, 255, 50);*/
     --width: 75px;
     --height: 75px;
-    color: #222;
+    --color-invert: #222;
     position: relative;
     display: flex;
     justify-content: center;
