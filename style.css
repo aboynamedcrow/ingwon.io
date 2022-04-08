@@ -556,16 +556,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(10px);
+          transform: translateY(5px);
         }
         40% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         60% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         85% {
-          transform: translateY(10px);
+          transform: translateY(5px);
         }
         100% {
           transform: translateY(0px);
@@ -577,16 +577,16 @@ html, body {
           transform: translateY(0);
         }
         10% {
-          transform: translateY(10px);
+          transform: translateY(5px);
         }
         40% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         60% {
-          transform: translateY(-25px);
+          transform: translateY(-17px);
         }
         85% {
-          transform: translateY(10px);
+          transform: translateY(5px);
         }
         100% {
           transform: translateY(0px);
