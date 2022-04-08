@@ -445,6 +445,8 @@ html, body {
     padding-right: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
+    justify-content: left;
+    align-items: left;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
