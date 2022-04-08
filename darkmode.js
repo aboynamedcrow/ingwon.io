@@ -1,7 +1,7 @@
 
 //Toggle Dark Mode via localStorage
 $(document).ready(function() {
-    var darkSwitch = document.querySelector(".dark-checkbox");
+    var darkSwitch = document.querySelector(".power-switch input[type='checkbox']");
 
     console.log(darkSwitch);
 
