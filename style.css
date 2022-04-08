@@ -21,7 +21,7 @@ html, body {
   body.dark-theme {
     --font-family: 'Fira Code';
     --text-color: rgb(89, 255, 0);
-    --bkg-color: #202945;
+    --bkg-color: #152028;
   }
 
 
