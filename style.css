@@ -413,11 +413,11 @@ html, body {
 }
 
   .left-empty-space {
-    width: 100%;
+    margin-left: 0 auto;
   }
 
   .right-empty-space {
-    width: 100%;
+    margin-right: 0 auto;
   }
 
   .dropdown {
