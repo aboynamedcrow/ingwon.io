@@ -762,6 +762,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    text-align: center;
     font-size: 18px;
   }
 
