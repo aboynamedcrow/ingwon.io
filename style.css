@@ -652,8 +652,7 @@ html, body {
   }
 
   .container-page p {
-    font-size: calc(4vw + 4vh + 2vmin);
-
+    font-size: 2vmin;
   }
 
   /*contact page here*/
