@@ -643,13 +643,17 @@ html, body {
   
   
   .container-page {
-    font-size: calc(4vw + 4vh + 2vmin);
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     min-height: 600px;
     background-color: var(--background-color);
     color: var(--text-color);
+  }
+
+  .container-page p {
+    font-size: calc(4vw + 4vh + 2vmin);
+
   }
 
   /*contact page here*/
