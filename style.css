@@ -386,8 +386,8 @@ html, body {
     display: flex;
     top: 0;
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     position: -webkit-sticky;
     position: sticky;
     align-items: center;
@@ -400,8 +400,8 @@ html, body {
     display: flex;
     top: 0;
     margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     z-index: 100;
     position: fixed;
     align-items: center;
