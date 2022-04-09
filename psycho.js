@@ -71,19 +71,23 @@ $(document).ready(function() {
 
 // can rotate card with below function
 
-function rotate(event) {
-	var x = event.clientX;
-	var w = window.innerWidth;
-	var midpoint = w / 2;
-	var pos = x - midpoint;
-	var val = (pos / midpoint) * 20;
-	var card = document.getElementById("business-card");
-	card.style.transform = "perspective(550px) rotateY(" + val + "deg) rotateY(" + val + "deg)";
-}
+if ( $(window).width() >= 600 ) {
+    function rotate(event) {
+        var x = event.clientX;
+        var w = window.innerWidth;
+        var midpoint = w / 2;
+        var pos = x - midpoint;
+        var val = (pos / midpoint) * 20;
+        var card = document.getElementById("business-card");
+        card.style.transform = "perspective(550px) rotateY(" + val + "deg) rotateY(" + val + "deg)";
+    }
+    
+    document.addEventListener("mousemove", function (event)
+    {
+        rotate (event)
+    }, false);
+  }
 
-document.addEventListener("mousemove", function (event)
-{
-	rotate (event)
-}, false);
+
 
 
