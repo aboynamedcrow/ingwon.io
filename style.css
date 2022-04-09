@@ -710,7 +710,7 @@ html, body {
     width: 100%;
     text-align: center;
     position: sticky;
-    top: 200px;
+    top: 50px;
   }
 
   .container-page #welcome {
