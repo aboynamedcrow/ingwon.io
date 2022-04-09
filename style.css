@@ -749,6 +749,7 @@ html, body {
     margin-bottom: auto;
     text-decoration: none;
     text-align: center;
+    background-color: inherit;
     color: inherit;
   }
 
