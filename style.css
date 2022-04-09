@@ -722,7 +722,7 @@ html, body {
     position: sticky;
     background-color: var(--background-color);
     z-index: 99;
-    top: 98px;
+    top: 100px;
     padding-bottom: 8px;
   }
 
