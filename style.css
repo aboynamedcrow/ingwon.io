@@ -747,6 +747,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+    text-decoration: none;
     text-align: center;
   }
 
