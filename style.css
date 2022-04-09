@@ -710,6 +710,7 @@ html, body {
     width: 100%;
     text-align: center;
     position: sticky;
+    background-color: var(--background-color);
     z-index: 99;
     top: 60px;
   }
