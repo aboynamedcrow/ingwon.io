@@ -713,7 +713,7 @@ html, body {
     background-color: var(--background-color);
     z-index: 99;
     top: 60px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
   }
 
   .container-page .content .sub-header {
