@@ -84,7 +84,7 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  height: fit-content;
+  /*height: fit-content;*/
   color: var(--text-color);
   background-color: var(--background-color);
 }
