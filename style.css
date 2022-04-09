@@ -716,6 +716,16 @@ html, body {
     padding-bottom: 8px;
   }
 
+  .container-page .content .sub-header {
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    background-color: var(--background-color);
+    z-index: 99;
+    top: 90px;
+    padding-bottom: 8px;
+  }
+
   .container-page #welcome {
     text-align: center;
   }
