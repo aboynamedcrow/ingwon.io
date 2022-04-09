@@ -701,7 +701,18 @@ html, body {
     color: var(--text-color);
   }
 
-  .container-page .welcome {
+  .container-page .content {
+    width: 100%;
+  }
+  
+  .container-page .content .header {
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+
+  .container-page #welcome {
     text-align: center;
   }
 
@@ -736,7 +747,7 @@ html, body {
     color: inherit;
   }
 
-  .container-page .selected-writing{
+  .container-page #selected-writing{
     text-align: center;
   }
   
@@ -756,7 +767,7 @@ html, body {
 
   /*contact page here*/
 
-  .container-contact {
+  #contact {
     background-color: inherit;
     color: inherit;
     margin: auto;
@@ -766,7 +777,7 @@ html, body {
     justify-content: center;
   }
 
-  .container-contact p {
+  #contact p {
     background-color: inherit;
     color: inherit;
     margin: auto;
@@ -777,7 +788,7 @@ html, body {
     font-size: 1.4rem;
   }
 
-  .container-contact a {
+  #contact a {
     background-color: inherit;
     color: inherit;
     text-decoration: none;
